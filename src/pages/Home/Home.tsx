@@ -4,6 +4,8 @@ import { CompanyHighlights } from "./components/CompanyHighlights";
 import { IntroSection } from "./components/IntroSection";
 import { TextAnimate } from "@/components/magicui/text-animate";
 import { BlurFade } from "@/components/magicui/blur-fade";
+import { CurseSection } from "./components/curseSection";
+import { Ripple } from "@/components/magicui/ripple";
 
 export const Home = () => {
   return (
@@ -14,32 +16,34 @@ export const Home = () => {
         <IntroSection></IntroSection>
       </BlurFade>
       {/* <!-- Personas --> */}
-      <BlurFade delay={0.25} inView>
-        <section className="h-[600px] flex flex-col mt-4">
-          {/* <!-- Title --> */}
-          <div className="flex flex-col justify-center items-center">
-            <div className="flex flex-col justify-center items-center gap-4 mb-4">
-              <h2 className="text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
-                <TextAnimate animation="blurIn">
-                  Conviertete en tu mejor version
-                </TextAnimate>
-              </h2>
-              <h2 className="text-4xl font-extrabold leading-none tracking-tight text-[#0396D6] md:text-2xl lg:text-6xl dark:text-white">
-                <TextAnimate animation="blurIn">Sé un Xpert</TextAnimate>
-              </h2>
-            </div>
-            <p className="mb-6 text-lg text-center font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
-              Here at Flowbite we focus on markets where technology, innovation,
-              and capital can unlock long-term value and drive economic growth.
-            </p>
-          </div>
 
+      <section className="h-[600px] flex flex-col mt-4">
+        {/* <!-- Title --> */}
+        <div className="flex flex-col justify-center items-center">
+          <div className="flex flex-col justify-center items-center gap-4 mb-4">
+            <h2 className="text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
+              <TextAnimate animation="blurIn">
+                Conviertete en tu mejor version
+              </TextAnimate>
+            </h2>
+            <h2 className="text-4xl font-extrabold leading-none tracking-tight text-[#167FA6] md:text-2xl lg:text-6xl dark:text-white">
+              <TextAnimate animation="blurIn">Sé un Xpert</TextAnimate>
+            </h2>
+          </div>
+          <p className="mb-6 text-lg text-center font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
+            Here at Flowbite we focus on markets where technology, innovation,
+            and capital can unlock long-term value and drive economic growth.
+          </p>
+        </div>
+        <BlurFade delay={0.25} inView>
           <div className="w-full flex justify-center items-center overflow-x-visible relative">
             <div className="col-span-1 relative flex flex-col justify-center items-center -z-1 top-20">
               <div className="absolute">
-                <div className="bg-gray-100 w-120 h-120 rounded-full p-4 flex justify-center items-center"></div>
+                <div className=" w-120 h-140 rounded-full p-4 flex justify-center items-center relative">
+                    <Ripple></Ripple>
+                </div>
               </div>
-              <div className="bg-gray-200 w-100 h-100 rounded-full relative"></div>
+              <div className=" w-100 h-100 rounded-full relative"></div>
             </div>
 
             <div className="absolute w-52 h-52 bg-blue-300 blur-[120px] -inset-y-50 -left-20 z-1"></div>
@@ -50,13 +54,12 @@ export const Home = () => {
               alt=""
             />
           </div>
-        </section>
-      </BlurFade>
+        </BlurFade>
+      </section>
       <BlurFade delay={0.25} inView>
-      <CompanyHighlights></CompanyHighlights>
-        
+        <CompanyHighlights></CompanyHighlights>
       </BlurFade>
-      
+
       {/* <!-- Section con wave --> */}
 
       <section
@@ -150,7 +153,7 @@ export const Home = () => {
               </span>{" "}
               Ahora Mismo
             </h6>
-            <ShinyButton className="bg-blue-400 text-white">
+            <ShinyButton className="bg-[#167FA6] text-white">
               Conoce mas
             </ShinyButton>
           </div>
@@ -161,6 +164,8 @@ export const Home = () => {
           />
         </div>
       </section>
+
+      <CurseSection></CurseSection>
     </>
   );
 };

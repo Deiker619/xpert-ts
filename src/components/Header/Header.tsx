@@ -7,9 +7,9 @@ export const Header = () => {
         <section
           id="background_header"
           style={{ backgroundImage: "url('img/bg.jpg')" }}
-          className="bg-center relative rounded-2xl bg-no-repeat bg-cover bg-blend-multiply h-[500px]"
+          className="bg-center relative rounded-2xl bg-no-repeat bg-cover bg-blend-multiply h-[580px]"
         >
-          <div className="absolute top-0 rounded-2xl left-0 w-full h-full z-1 bg-gradient-to-r to-emerald-600 from-sky-400 opacity-50"></div>
+          <div className="absolute top-0 rounded-2xl left-0 w-full h-full z-1 bg-gradient-to-r to-[#167FA6] from-[#02196b] opacity-50"></div>
           {/* <!-- Contenedor inferior derecha --> */}
           <div className="absolute right-22 bottom-0 w-72 h-24 rounded-2xl z-10 bg-white">
             {/* <!-- viñeta para redondear --> */}
@@ -58,7 +58,7 @@ export const Header = () => {
               className="flex flex-col space-y-4 sm:justify-center sm:space-y-0 gap-8"
             >
               <div className="">
-                <ShinyButton className="bg-white" >Quiero saber mas</ShinyButton>
+                <ShinyButton className="bg-[#167FA6]" >Quiero saber mas</ShinyButton>
               </div>
             </div>
           </div>

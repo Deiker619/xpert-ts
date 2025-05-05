@@ -1,3 +1,5 @@
+import { ShinyButton } from "@/components/magicui/shiny-button";
+
 export const IntroSection = () => {
   return (
     <>
@@ -7,7 +9,7 @@ export const IntroSection = () => {
             <div className="slideupdiv">
               <h2 className="max-w-2xl mb-4 text-3xl text-start tracking-tight md:text-start md:text-6xl xl:text-4xl">
                 Ofrecemos soluciones <br />
-                <span className="text-[#0396D6] font-medium">
+                <span className="text-[#167FA6] font-medium">
                   tecnológicas integrales
                 </span>
               </h2>
@@ -17,12 +19,7 @@ export const IntroSection = () => {
                 Latinoamericano y el Caribe
               </p>
 
-              <a
-                href="#"
-                className="inline-flex items-start justify-center px-5 py-3 text-base font-medium text-center text-white border bg-[#0397d6ea] rounded-lg hover:bg-[#219ed3] focus:ring-4 focus:ring-gray-100"
-              >
-                Conoce mas...
-              </a>
+              <ShinyButton className="bg-[#167FA6]">Ver servicios</ShinyButton>
             </div>
           </div>
           <div className="hidden lg:mt-0 lg:col-span-5 lg:flex relative">
