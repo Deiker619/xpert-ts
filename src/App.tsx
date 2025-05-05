@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 import { Home } from "./pages/Home/Home"
-import { About } from "./pages/About"
 import { Menu } from "./layouts/Menu"
+import { About } from "./pages/about/About"
 
 function App() {
 
