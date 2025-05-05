@@ -8,6 +8,8 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
+import { Button } from "@/components/ui/button";
+import { BoxReveal } from "@/components/magicui/box-reveal";
 
 export const CurseSection = () => {
   return (
@@ -46,8 +48,33 @@ export const CurseSection = () => {
             <CarouselPrevious />
             <CarouselNext className="z-1" />
           </Carousel>
-          <div className="col-span-5 bg-amber-100 flex flex-col justify-center items-center">
-            A
+          <div className="col-span-5  flex flex-col justify-end items-center w-full">
+
+            <div className="size-full max-w-lg flex flex-col items-center justify-center overflow-hidden pt-8">
+              <BoxReveal boxColor={"#5046e6"} duration={0.5}>
+                <p className="text-[3.5rem] font-semibold text-center">
+                  Inscribete<span className="text-[#5046e6]">.</span>
+                </p>
+              </BoxReveal>
+
+              
+
+              <BoxReveal boxColor={"#5046e6"} duration={0.5}>
+                <div className="mt-6 ">
+                  <p className="text-center">
+                    -&gt; 20+ free and open-source animated components built with 
+                    <span className="font-semibold text-[#5046e6]"> React</span>,
+                    <span className="font-semibold text-[#5046e6]">Typescript</span>,
+                    <span className="font-semibold text-[#5046e6]">Tailwind CSS</span>,
+
+                  </p>
+                </div>
+              </BoxReveal>
+
+              <BoxReveal boxColor={"#5046e6"} duration={0.5}>
+                <Button className="mt-[1.6rem] bg-[#5046e6]">Explore</Button>
+              </BoxReveal>
+            </div>
           </div>
         </div>
       </div>
