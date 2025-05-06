@@ -1,14 +1,17 @@
-import { Header } from "@/components/Header/Header"
-import { MisionVision } from "./components/MisionVision"
-
+import { Header } from "@/components/Header/Header";
+import { MisionVision } from "./components/MisionVision";
+import { Valores } from "./components/valores";
 
 export const About = () => {
   return (
     <>
       <Header></Header>
-      <MisionVision></MisionVision>
-
-
+      <div className="mt-10">
+        <MisionVision></MisionVision>
+      </div>
+      <div className="mt-10">
+        <Valores></Valores>
+      </div>
     </>
-  )
-}
+  );
+};
