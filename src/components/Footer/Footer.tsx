@@ -8,8 +8,8 @@ export const Footer = () => {
           <div className="mb-6 md:mb-0 flex justify-center col-span-2 md:col-span-1">
             <a href="index.html" className="flex">
               <img
-                src="https://bytescreativos.net/src/img/contenido/logobytes.png"
-                className="h-16 opacity-40 me-3"
+                src="img/logo.png"
+                className="h-16 me-3"
                 alt="FlowBite Logo"
               />
             </a>

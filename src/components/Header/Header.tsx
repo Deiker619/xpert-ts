@@ -35,6 +35,18 @@ export const Header = () => {
           </div>
 
           <div className="px-4 z-2 mx-auto max-w-screen-xl text-center py-32 lg:pt-40 relative overflow-hidden">
+            <a
+              href="#"
+              className="inline-flex justify-between items-center py-1 px-1 pe-4  text-sm text-white backdrop-blur-2xl  rounded-full "
+            >
+              <span className="text-xs bg-[#167FA6] rounded-full text-white px-4 py-1.5 me-3">
+                New
+              </span>{" "}
+              <span className="text-sm font-medium ">
+                <i>Innovación que conecta, formación que transforma</i>
+              </span>
+             
+            </a>
             <div className="mb-2">
               <h1
                 id="title_header"
@@ -58,7 +70,9 @@ export const Header = () => {
               className="flex flex-col space-y-4 sm:justify-center sm:space-y-0 gap-8"
             >
               <div className="">
-                <ShinyButton className="bg-[#167FA6]" >Quiero saber mas</ShinyButton>
+                <ShinyButton className="bg-[#167FA6]">
+                  Quiero saber mas
+                </ShinyButton>
               </div>
             </div>
           </div>

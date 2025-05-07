@@ -51,28 +51,28 @@ export const CurseSection = () => {
           <div className="col-span-5  flex flex-col justify-end items-center w-full">
 
             <div className="size-full max-w-lg flex flex-col items-center justify-center overflow-hidden pt-8">
-              <BoxReveal boxColor={"#5046e6"} duration={0.5}>
+              <BoxReveal boxColor={"#167FA6"} duration={0.5}>
                 <p className="text-[3.5rem] font-semibold text-center">
-                  Inscribete<span className="text-[#5046e6]">.</span>
+                  Inscribete<span className="text-[#167FA6]">.</span>
                 </p>
               </BoxReveal>
 
               
 
-              <BoxReveal boxColor={"#5046e6"} duration={0.5}>
+              <BoxReveal boxColor={"#167FA6"} duration={0.5}>
                 <div className="mt-6 ">
                   <p className="text-center">
-                    -&gt; 20+ free and open-source animated components built with 
-                    <span className="font-semibold text-[#5046e6]"> React</span>,
-                    <span className="font-semibold text-[#5046e6]">Typescript</span>,
-                    <span className="font-semibold text-[#5046e6]">Tailwind CSS</span>,
+                     20+ free and open-source animated components built with 
+                    <span className="font-semibold text-[#167FA6]"> React</span>,
+                    <span className="font-semibold text-[#167FA6]">Typescript</span>,
+                    <span className="font-semibold text-[#167FA6]">Tailwind CSS</span>,
 
                   </p>
                 </div>
               </BoxReveal>
 
-              <BoxReveal boxColor={"#5046e6"} duration={0.5}>
-                <Button className="mt-[1.6rem] bg-[#5046e6]">Explore</Button>
+              <BoxReveal boxColor={"#167FA6"} duration={0.5}>
+                <Button className="mt-[1.6rem] bg-[#167FA6]">Explorar cursos</Button>
               </BoxReveal>
             </div>
           </div>

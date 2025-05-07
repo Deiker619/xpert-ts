@@ -36,15 +36,18 @@ export const Home = () => {
           </p>
         </div>
         <BlurFade delay={0.25} inView>
-          <div className="w-full flex justify-center items-center overflow-x-visible relative">
+          <div className="w-full flex justify-center items-center overflow-x-visible relative border">
             <div className="col-span-1 relative flex flex-col justify-center items-center -z-1 top-20">
               <div className="absolute">
                 <div className=" w-120 h-140 rounded-full p-4 flex justify-center items-center relative">
-                    <Ripple></Ripple>
+                  <Ripple></Ripple>
                 </div>
               </div>
               <div className=" w-100 h-100 rounded-full relative"></div>
             </div>
+
+            <div className="absolute h-auto w-auto left-10  z-1"><i><p className="pointer-events-none z-10 whitespace-pre-wrap text-center text-8xl font-semibold leading-none text-transparent bg-clip-text bg-gradient-to-r from-[#167FA6] ">BYTES</p></i></div>
+            <div className="absolute h-auto w-auto right-10  z-1"><p className="pointer-events-none z-10 whitespace-pre-wrap text-center text-8xl font-semibold leading-none text-transparent bg-clip-text bg-gradient-to-r to-[#02196b]">XPERT</p></div>
 
             <div className="absolute w-52 h-52 bg-blue-300 blur-[120px] -inset-y-50 -left-20 z-1"></div>
 
@@ -148,9 +151,12 @@ export const Home = () => {
         <div className="absolute bottom-0 right-0 h-[100%] ">
           <div className=" absolute inset-y-0 right-30 flex flex-col w-80 justify-center items-center">
             <h6 className="mb-4 text-xl FLEX  font-semibold text-center text-gray-900 dark:text-white md:text-md lg:text-3xl">
-              <span className="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r to-[#45AEBA] from-[#02196b]">
+            
                 Solicita Nuestros Servicios
-              </span>{" "}
+
+                
+              </span>{" "} <br /> 
               Ahora Mismo
             </h6>
             <ShinyButton className="bg-[#167FA6] text-white">

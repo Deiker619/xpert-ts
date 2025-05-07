@@ -10,7 +10,7 @@ const pages: Ruta[] = [
     state: false,
   },
   {
-    name: "about",
+    name: "Quienes somos",
     url: "/about",
     state: false,
   },
