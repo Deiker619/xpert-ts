@@ -6,6 +6,8 @@ import { TextAnimate } from "@/components/magicui/text-animate";
 import { BlurFade } from "@/components/magicui/blur-fade";
 import { CurseSection } from "./components/curseSection";
 import { Ripple } from "@/components/magicui/ripple";
+import { BentoCard } from "@/components/magicui/bento-grid";
+
 
 export const Home = () => {
   return (
@@ -76,54 +78,17 @@ export const Home = () => {
         <div className="w-full h-full col-span-4 flex flex-col items-center justify-center z-10 p-4  gap-2">
           <div className="grid w-full h-full grid-cols-2 gap-2 p-4">
             <div className="col-span-1 h-full bg-white backdrop-blur-md rounded-2xl">
-              <div className="h-full p-8 rounded-md flex flex-col justify-center items-center">
-                <div className="justify-center items-center">
-                  <img
-                    className="h-20 max-w-md"
-                    src="https://bytescreativos.net/src/img/iconos/icono-cyberseguridad.svg"
-                    alt="image description"
-                  />
-                </div>
-                <div className="justify-center items-center">
-                  <p className="text-3xl text-gray-900 font-semibold">
-                    Cyberseguridad
-                  </p>
-                </div>
-              </div>
+              <BentoCard name={"Cursos Personalizados"} className={"h-full w-full"} background={<img src="img/home/empresarial.jpg" className="absolute inset-0 opacity-100 object-cover h-full w-full" />} Icon={"symbol"} description={"+100 cursos personalizados "} href={""} cta={"Solicitar"}></BentoCard>
             </div>
             <div className="col-span-1 h-full bg-white backdrop-blur-md rounded-2xl">
-              <div className="h-full p-8 rounded-md flex flex-col justify-center items-center">
-                <div className="justify-center items-center">
-                  <img
-                    className="h-20 max-w-md"
-                    src="https://bytescreativos.net/src/img/iconos/icono-cyberseguridad.svg"
-                    alt="image description"
-                  />
-                </div>
-                <div className="justify-center items-center">
-                  <p className="text-3xl text-gray-900 font-semibold">
-                    Cyberseguridad
-                  </p>
-                </div>
-              </div>
+              <BentoCard name={"Cursos Personalizados"} className={"h-full w-full"} background={<img src="img/home/hombre.jpg" className="absolute inset-0 opacity-100 object-cover h-full w-full" />} Icon={"symbol"} description={"+100 cursos personalizados "} href={""} cta={"Solicitar"}></BentoCard>
+
             </div>
           </div>
           <div className="grid w-full h-full grid-cols-2 gap-2 p-4">
             <div className="col-span-1 h-full bg-white backdrop-blur-md rounded-2xl">
-              <div className="h-full p-8 rounded-md flex flex-col justify-center items-center">
-                <div className="justify-center items-center">
-                  <img
-                    className="h-20 max-w-md"
-                    src="https://bytescreativos.net/src/img/iconos/icono-cyberseguridad.svg"
-                    alt="image description"
-                  />
-                </div>
-                <div className="justify-center items-center">
-                  <p className="text-3xl text-gray-900 font-semibold">
-                    Cyberseguridad
-                  </p>
-                </div>
-              </div>
+            <BentoCard name={"Cursos Personalizados"} className={"h-full w-full"} background={<img src="img/home/serviciot.jpg" className="absolute inset-0 opacity-100 object-cover h-full w-full" />} Icon={"symbol"} description={"+100 cursos personalizados "} href={""} cta={"Solicitar"}></BentoCard>
+
             </div>
             <div className="col-span-1 h-full bg-white backdrop-blur-md rounded-2xl">
               <div className="h-full p-8 rounded-md flex flex-col justify-center items-center">
@@ -152,11 +117,11 @@ export const Home = () => {
           <div className=" absolute inset-y-0 right-30 flex flex-col w-80 justify-center items-center">
             <h6 className="mb-4 text-xl FLEX  font-semibold text-center text-gray-900 dark:text-white md:text-md lg:text-3xl">
               <span className="text-transparent bg-clip-text bg-gradient-to-r to-[#45AEBA] from-[#02196b]">
-            
+
                 Solicita Nuestros Servicios
 
-                
-              </span>{" "} <br /> 
+
+              </span>{" "} <br />
               Ahora Mismo
             </h6>
             <ShinyButton className="bg-[#167FA6] text-white">
@@ -170,6 +135,7 @@ export const Home = () => {
           />
         </div>
       </section>
+
 
       <CurseSection></CurseSection>
     </>
