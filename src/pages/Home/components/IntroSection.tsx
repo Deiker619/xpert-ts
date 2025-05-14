@@ -6,14 +6,14 @@ export const IntroSection = () => {
       <section className="bg-[#f0f0eb] mr-6 ml-6 rounded-2xl mt-6">
         <div className="grid place-items-center px-4 mx-auto xl:gap-0 lg:py-16 lg:px-8 lg:grid-cols-12">
           <div className="mr-auto container flex flex-col justify-center items-center md:items-start md:justify-start lg:col-span-7">
-            <div className="slideupdiv">
-              <h2 className="max-w-2xl mb-4 text-3xl text-start tracking-tight md:text-start md:text-6xl xl:text-4xl">
+            <div className="p-6 md:p-0">
+              <h2 className="w-full mb-4 text-2xl  tracking-tight md:text-start md:text-6xl xl:text-4xl">
                 Ofrecemos soluciones <br />
                 <span className="text-[#167FA6] font-medium">
                   tecnológicas integrales
                 </span>
               </h2>
-              <p className="max-w-2xl mb-6 font-light text-gray-500 text-start lg:mb-8 md:text-lg md:text-start lg:text-xl">
+              <p className="w-full mb-6 font-light text-gray-500 text-center lg:mb-8 md:text-lg md:text-start lg:text-xl">
                 Somos una compañía de Servicios y Soluciones Tecnológicas, con
                 más de 25 años de trayectoria en el mercado venezolano,
                 Latinoamericano y el Caribe

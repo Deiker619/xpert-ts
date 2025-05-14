@@ -9,7 +9,7 @@ export const About = () => {
       <div className="mt-10">
         <MisionVision></MisionVision>
       </div>
-      <div className="mt-10">
+      <div className="mt-5">
         <Valores></Valores>
       </div>
     </>

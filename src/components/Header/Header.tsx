@@ -1,9 +1,11 @@
+import { motion } from "motion/react";
 import { InteractiveHoverButton } from "../magicui/interactive-hover-button";
 import { ShinyButton } from "@/components/magicui/shiny-button";
+
 export const Header = () => {
   return (
     <>
-      <div className="bg-white  mr-6 ml-6 mb-6 rounded-2xl border-gray-400 overflow-hidden p-2">
+      <div className="bg-white mr-3 ml-3 md:mr-6 md:ml-6 mb-6 rounded-2xl border-gray-400 overflow-hidden p-2">
         <section
           id="background_header"
           style={{ backgroundImage: "url('img/bg.jpg')" }}
@@ -11,7 +13,14 @@ export const Header = () => {
         >
           <div className="absolute top-0 rounded-2xl left-0 w-full h-full z-1 bg-gradient-to-r to-[#167FA6] from-[#02196b] opacity-50"></div>
           {/* <!-- Contenedor inferior derecha --> */}
-          <div className="absolute right-22 bottom-0 w-72 h-24 rounded-2xl z-10 bg-white">
+          <motion.div
+            initial={{ opacity: 1, y: 100 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ type: "spring", stiffness: 100, damping: 30 }}
+
+            viewport={{ once: true }}
+            className="absolute left-1/2 -translate-x-1/2 md:translate-x-0  -bottom-1 md:left-100 lg:left-210 md:right-20 md:bottom-0 md:w-72 w-60 h-24 rounded-2xl z-10 bg-white"
+          >
             {/* <!-- viñeta para redondear --> */}
 
             {/* <!-- Message header --> */}
@@ -32,7 +41,7 @@ export const Header = () => {
             <div className="absolute -right-12 bottom-0 size-16 w-12 h-12 bg-trasparent rotate-[-270deg] rounded-lg pointer-events-none">
               <div className="w-12 h-12 rounded-full shadow-[35px_35px_0_10px_white]"></div>
             </div>
-          </div>
+          </motion.div>
 
           <div className="px-4 z-2 mx-auto max-w-screen-xl text-center py-32 lg:pt-40 relative overflow-hidden">
             <a
@@ -45,7 +54,6 @@ export const Header = () => {
               <span className="text-sm font-medium ">
                 <i>Innovación que conecta, formación que transforma</i>
               </span>
-             
             </a>
             <div className="mb-2">
               <h1

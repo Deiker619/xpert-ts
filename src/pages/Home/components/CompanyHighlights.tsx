@@ -3,10 +3,10 @@
 export const CompanyHighlights = () => {
   return (
     <>
-      <section className="flex flex-col items-center h-[250px] w-full mb-20 relative">
-        <div className="flex flex-col bg-gray-900 rounded-3xl w-[80%] h-full justify-center items-center">
+      <section className="flex flex-col items-center h-auto w-full mb-10 relative">
+        <div className="flex flex-col bg-gray-900 rounded-3xl w-full md:w-[80%] h-full justify-center items-center">
           <div className="grid grid-cols-9 gap-3 w-full h-full p-10">
-            <div className="bg-[#167FA6] p-2 col-span-3 rounded-xl">
+            <div className="bg-[#167FA6] p-2 col-span-9 md:col-span-3 rounded-xl">
               <div className="grid grid-cols-3">
                 <div className="flex flex-col p-2 shrink-0 col-span-2">
                   <h3 className="text-4xl font-extrabold leading-none tracking-tight text-white md:text-5xl lg:text-6xl dark:text-white">
@@ -33,7 +33,7 @@ export const CompanyHighlights = () => {
                 </div>
               </div>
             </div>
-            <div className="bg-white p-2 col-span-2 rounded-xl">
+            <div className="bg-white p-2 col-span-9 md:col-span-2 rounded-xl">
               <div className="flex flex-col justify-center items-center w-full p-4 h-full gap-2">
                 <h3 className="text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
                   13+
@@ -43,7 +43,7 @@ export const CompanyHighlights = () => {
                 </p>
               </div>
             </div>
-            <div className="bg-white p-2 col-span-2 rounded-xl">
+            <div className="bg-white p-2 col-span-9 md:col-span-2 rounded-xl">
               <div className="flex flex-col justify-center items-center w-full p-4 h-full gap-2">
                 <h3 className="text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
                   20
@@ -53,7 +53,7 @@ export const CompanyHighlights = () => {
                 </p>
               </div>
             </div>
-            <div className="bg-white p-2 col-span-2 rounded-xl">
+            <div className="bg-white p-2 col-span-9 md:col-span-2 rounded-xl">
               <div className="flex flex-col justify-center items-center w-full p-4 h-full gap-2">
                 <h3 className="text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
                   10k

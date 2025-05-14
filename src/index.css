@@ -174,3 +174,9 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+.parallax {
+  background-attachment: fixed; /* Fija la imagen de fondo */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita que se repita */
+  background-size: cover; /* Cubre todo el espacio */
+}
