@@ -36,7 +36,7 @@ export const Home = () => {
           </p>
         </div>
         <BlurFade delay={0.25} inView>
-          <div className="w-full flex justify-center items-center overflow-x-visible relative border">
+          <div className="w-full flex justify-center items-center overflow-x-visible relative ">
             <div className="col-span-1 relative flex flex-col justify-center items-center -z-1 top-20">
               <div className="absolute">
                 <div className=" md:w-120 md:h-140 hidden rounded-full p-4 md:flex md:justify-center md:items-center relative">
