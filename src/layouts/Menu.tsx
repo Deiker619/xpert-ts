@@ -14,6 +14,11 @@ const pages: Ruta[] = [
     url: "/about",
     state: false,
   },
+  {
+    name: "Contactenos",
+    url: "/contact",
+    state: false,
+  },
 ];
 export const Menu = () => {
   return (

@@ -1,14 +1,19 @@
 import { motion } from "motion/react";
 import { InteractiveHoverButton } from "../magicui/interactive-hover-button";
 import { ShinyButton } from "@/components/magicui/shiny-button";
-
-export const Header = () => {
+interface headerProps {
+  titleHeader: string,
+  descriptionHeader: string,
+  bgHeader: string,
+  messageHeader: string
+}
+export const Header = ({ titleHeader, descriptionHeader, bgHeader, messageHeader }: headerProps) => {
   return (
     <>
       <div className="bg-white mr-3 ml-3 md:mr-6 md:ml-6 mb-6 rounded-2xl border-gray-400 overflow-hidden p-2">
         <section
           id="background_header"
-          style={{ backgroundImage: "url('img/bg.jpg')" }}
+          style={{ backgroundImage: bgHeader }}
           className="bg-center relative rounded-2xl bg-no-repeat bg-cover bg-blend-multiply h-[580px]"
         >
           <div className="absolute top-0 rounded-2xl left-0 w-full h-full z-1 bg-gradient-to-r to-[#167FA6] from-[#02196b] opacity-50"></div>
@@ -52,7 +57,7 @@ export const Header = () => {
                 New
               </span>{" "}
               <span className="text-sm font-medium ">
-                <i>Innovación que conecta, formación que transforma</i>
+                <i>{messageHeader}</i>
               </span>
             </a>
             <div className="mb-2">
@@ -60,13 +65,13 @@ export const Header = () => {
                 id="title_header"
                 className="text-4xl font-normal tracking-tight leading-none text-white md:text-5xl lg:text-7xl flex flex-col"
               >
-                Impulsa tu Carrera en lo Digital
+                {titleHeader}
               </h1>
               <h2
                 id="subtitle_header"
                 className="font-bold text-4xl tracking-tight leading-none text-white md:text-5xl lg:text-7xl flex flex-col"
               >
-                con los mejores xpertos
+                {descriptionHeader}
               </h2>
             </div>
             <p

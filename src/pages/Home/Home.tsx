@@ -6,17 +6,22 @@ import { BlurFade } from "@/components/magicui/blur-fade";
 import { CurseSection } from "./components/curseSection";
 import { Ripple } from "@/components/magicui/ripple";
 
-import { ServiceSection} from "./components/servicesSection";
+import { ServiceSection } from "./components/servicesSection";
 
 export const Home = () => {
   return (
     <>
-      <Header></Header>
-      {/* <!--other section  --> */}
+      <Header
+        bgHeader={"url('img/bg.jpg')"}
+        descriptionHeader="con los mejores xpertos"
+        titleHeader="Impulsa tu Carrera en lo Digital"
+        messageHeader="Innovación que conecta, formación que transforma"
+      >
+
+      </Header>
       <BlurFade delay={0.25} inView>
         <IntroSection></IntroSection>
       </BlurFade>
-      {/* <!-- Personas --> */}
       <section className="h-[600px] flex flex-col mt-4">
         {/* <!-- Title --> */}
         <div className="flex flex-col justify-center items-center">

@@ -5,7 +5,13 @@ import { Valores } from "./components/valores";
 export const About = () => {
   return (
     <>
-      <Header></Header>
+      <Header
+        bgHeader={"url('img/about/bgabout.jpg')"}
+        titleHeader={"Impulsa tu Carrera en lo Digital"}
+        descriptionHeader={"con los mejores xpertos"}
+        messageHeader={"Innovación que conecta, formación que transforma"}
+      >
+      </Header>
       <div className="mt-10">
         <MisionVision></MisionVision>
       </div>
