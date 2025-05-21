@@ -4,6 +4,8 @@ import { Nav } from "../components/nav/nav";
 import { Footer } from "../components/Footer/Footer";
 import { Ruta } from "../interfaces/Ruta";
 import { Suspense } from "react";
+
+import { SkeletonCard } from "@/components/Skeleton/SkeletonCard";
 const pages: Ruta[] = [
   {
     name: "Home",
@@ -27,7 +29,7 @@ export const Menu = () => {
       <Nav Rutas={pages}></Nav>
 
       <main className="mt-20">
-        <Suspense fallback={<div className="h-[100vh]">Cargando página...</div>}>
+        <Suspense fallback={<SkeletonCard></SkeletonCard>}>
           <Outlet />
         </Suspense>
       </main>

@@ -14,7 +14,7 @@ export const ServiceSection = () => {
     <>
       <section
         
-        className="relative overflow-hidden parallax object-cover md:h-auto h-auto bg-center bg-no-repeat bg-cover bg-blend-multiply w-full grid grid-cols-7 mb-11 "
+        className="relative bg-[#f0f0eb] overflow-hidden parallax object-cover md:h-auto h-auto bg-center bg-no-repeat bg-cover bg-blend-multiply w-full grid grid-cols-7 mb-11 "
       >
         {/* <!-- Contenido principal --> */}
         <div className="w-full h-full col-span-7 flex flex-col items-center justify-center z-10  gap-2 md:mb-20 mb-50">
@@ -203,7 +203,7 @@ export const ServiceSection = () => {
         </div>
 
         {/*Gradiente azul de fondo  */}
-        <div className="absolute top-0 left-0 w-full h-full z-0 bg-gradient-to-r  opacity-50"></div>
+        <div className="absolute top-0 left-0 w-full h-full z-0  bg-dark-900 opacity-50"></div>
         {/* Viñeta inferior */}
         <div className="absolute  md:right-50 right-20 -bottom-1 w-50 h-20 rounded-2xl z-10 bg-white ">
           {/* <!-- viñeta para redondear --> */}
