@@ -13,10 +13,7 @@ export const ServiceSection = () => {
   return (
     <>
       <section
-        style={{
-          backgroundImage:
-            "url(https://bytescreativos.net/src/img/contenido/coafondo.png)",
-        }}
+        
         className="relative overflow-hidden parallax object-cover md:h-auto h-auto bg-center bg-no-repeat bg-cover bg-blend-multiply w-full grid grid-cols-7 mb-11 "
       >
         {/* <!-- Contenido principal --> */}
@@ -206,7 +203,7 @@ export const ServiceSection = () => {
         </div>
 
         {/*Gradiente azul de fondo  */}
-        <div className="absolute top-0 left-0 w-full h-full z-0 bg-gradient-to-r from-sky-400 opacity-50"></div>
+        <div className="absolute top-0 left-0 w-full h-full z-0 bg-gradient-to-r  opacity-50"></div>
         {/* Viñeta inferior */}
         <div className="absolute  md:right-50 right-20 -bottom-1 w-50 h-20 rounded-2xl z-10 bg-white ">
           {/* <!-- viñeta para redondear --> */}
@@ -215,7 +212,7 @@ export const ServiceSection = () => {
           <div className="absolute w-full h-full bg-cover rounded-t-full bg-transparent overflow-hidden z-10">
             <div className="rounded h-full w-full absolute  p-1">
               <div className="w-full h-full rounded-lg backdrop-blur-lg flex flex-col justify-center items-center p-2">
-                <Button className="z-10 bg-[#167FA6]">Explorar cursos</Button>
+                <Button className="z-10 bg-primary">Explorar cursos</Button>
               </div>
             </div>
           </div>

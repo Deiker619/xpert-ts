@@ -8,7 +8,7 @@ import { Ripple } from "@/components/magicui/ripple";
 
 import { ServiceSection } from "./components/servicesSection";
 
-export const Home = () => {
+ const Home = () => {
   return (
     <>
       <Header
@@ -84,3 +84,5 @@ export const Home = () => {
     </>
   );
 };
+
+export default Home

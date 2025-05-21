@@ -1,6 +1,6 @@
 import { Header } from "@/components/Header/Header"
 
-export const Contact = () => {
+const Contact = () => {
     return (
         <>
             <Header
@@ -23,3 +23,4 @@ export const Contact = () => {
         </>
     )
 }
+export default Contact

@@ -16,23 +16,21 @@ export const Header = ({ titleHeader, descriptionHeader, bgHeader, messageHeader
           style={{ backgroundImage: bgHeader }}
           className="bg-center relative rounded-2xl bg-no-repeat bg-cover bg-blend-multiply h-[580px]"
         >
-          <div className="absolute top-0 rounded-2xl left-0 w-full h-full z-1 bg-gradient-to-r to-[#167FA6] from-[#02196b] opacity-50"></div>
+          <div className="absolute top-0 rounded-2xl left-0 w-full h-full z-1 bg-gradient-to-r to-primary from-secondary opacity-50"></div>
           {/* <!-- Contenedor inferior derecha --> */}
           <motion.div
             initial={{ opacity: 1, y: 100 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ type: "spring", stiffness: 100, damping: 30 }}
-
             viewport={{ once: true }}
             className="absolute left-1/2 -translate-x-1/2 md:translate-x-0  -bottom-1 md:left-100 lg:left-210 md:right-20 md:bottom-0 md:w-72 w-60 h-24 rounded-2xl z-10 bg-white"
           >
             {/* <!-- viñeta para redondear --> */}
-
             {/* <!-- Message header --> */}
             <div className="absolute w-full h-full bg-cover rounded-t-full bg-transparent overflow-hidden">
               <div className="rounded h-full w-full absolute  p-1">
                 <div className="w-full h-full rounded-lg backdrop-blur-lg flex fle-col justify-center items-center p-2">
-                  <InteractiveHoverButton className="">
+                  <InteractiveHoverButton>
                     Ver cursos
                   </InteractiveHoverButton>
                 </div>
@@ -53,7 +51,7 @@ export const Header = ({ titleHeader, descriptionHeader, bgHeader, messageHeader
               href="#"
               className="inline-flex justify-between items-center py-1 px-1 pe-4  text-sm text-white backdrop-blur-2xl  rounded-full "
             >
-              <span className="text-xs bg-[#167FA6] rounded-full text-white px-4 py-1.5 me-3">
+              <span className="text-xs bg-primary rounded-full text-white px-4 py-1.5 me-3">
                 New
               </span>{" "}
               <span className="text-sm font-medium ">
@@ -83,7 +81,7 @@ export const Header = ({ titleHeader, descriptionHeader, bgHeader, messageHeader
               className="flex flex-col space-y-4 sm:justify-center sm:space-y-0 gap-8"
             >
               <div className="">
-                <ShinyButton className="bg-[#167FA6]">
+                <ShinyButton className="bg-primary">
                   Quiero saber mas
                 </ShinyButton>
               </div>
