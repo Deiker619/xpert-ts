@@ -8,7 +8,7 @@ import { Ripple } from "@/components/magicui/ripple";
 
 import { ServiceSection } from "./components/servicesSection";
 
-export const Home = () => {
+ const Home = () => {
   return (
     <>
       <Header
@@ -31,7 +31,7 @@ export const Home = () => {
                 Conviertete en tu mejor versión
               </TextAnimate>
             </h2>
-            <h2 className="text-4xl font-extrabold leading-none tracking-tight text-[#167FA6] md:text-2xl lg:text-6xl dark:text-white">
+            <h2 className="text-4xl font-extrabold leading-none tracking-tight text-primary md:text-2xl lg:text-6xl dark:text-white">
               <TextAnimate animation="blurIn">Sé un Xpert</TextAnimate>
             </h2>
           </div>
@@ -41,7 +41,7 @@ export const Home = () => {
           </p>
         </div>
         <BlurFade delay={0.25} inView>
-          <div className="w-full flex justify-center items-center overflow-x-visible relative border">
+          <div className="w-full flex justify-center items-center overflow-x-visible relative ">
             <div className="col-span-1 relative flex flex-col justify-center items-center -z-1 top-20">
               <div className="absolute">
                 <div className=" md:w-120 md:h-140 hidden rounded-full p-4 md:flex md:justify-center md:items-center relative">
@@ -53,7 +53,7 @@ export const Home = () => {
 
             <div className="absolute h-auto w-auto left-10  z-1">
               <i>
-                <p className="pointer-events-none z-10 whitespace-pre-wrap text-center text-8xl font-semibold leading-none text-transparent bg-clip-text bg-gradient-to-r from-[#167FA6] ">
+                <p className="pointer-events-none z-10 whitespace-pre-wrap text-center text-8xl font-semibold leading-none text-transparent bg-clip-text bg-gradient-to-r from-primary ">
                   BYTES
                 </p>
               </i>
@@ -84,3 +84,5 @@ export const Home = () => {
     </>
   );
 };
+
+export default Home

@@ -2,7 +2,7 @@ import { Header } from "@/components/Header/Header";
 import { MisionVision } from "./components/MisionVision";
 import { Valores } from "./components/valores";
 
-export const About = () => {
+ const About = () => {
   return (
     <>
       <Header
@@ -21,3 +21,4 @@ export const About = () => {
     </>
   );
 };
+export default About

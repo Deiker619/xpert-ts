@@ -3,9 +3,10 @@ import { Outlet } from "react-router-dom";
 import { Nav } from "../components/nav/nav";
 import { Footer } from "../components/Footer/Footer";
 import { Ruta } from "../interfaces/Ruta";
+import { Suspense } from "react";
 const pages: Ruta[] = [
   {
-    name: "home",
+    name: "Home",
     url: "/",
     state: false,
   },
@@ -26,9 +27,12 @@ export const Menu = () => {
       <Nav Rutas={pages}></Nav>
 
       <main className="mt-20">
-        <Outlet />
+        <Suspense fallback={<div className="h-[100vh]">Cargando página...</div>}>
+          <Outlet />
+        </Suspense>
       </main>
       <Footer></Footer>
     </>
   );
 };
+export default Menu

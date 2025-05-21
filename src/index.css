@@ -4,6 +4,7 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
+  
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
@@ -179,4 +180,10 @@
   background-position: center; /* Centra la imagen */
   background-repeat: no-repeat; /* Evita que se repita */
   background-size: cover; /* Cubre todo el espacio */
+}
+
+
+@theme {
+  --color-primary: #167FA6;
+  --color-secondary: #02196b;
 }

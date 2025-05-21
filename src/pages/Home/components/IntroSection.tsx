@@ -9,7 +9,7 @@ export const IntroSection = () => {
             <div className="p-6 md:p-0">
               <h2 className="w-full mb-4 text-2xl  tracking-tight md:text-start md:text-6xl xl:text-4xl">
                 Ofrecemos soluciones <br />
-                <span className="text-[#167FA6] font-medium">
+                <span className="text-primary font-medium">
                   tecnológicas integrales
                 </span>
               </h2>
@@ -19,7 +19,7 @@ export const IntroSection = () => {
                 Latinoamericano y el Caribe
               </p>
 
-              <ShinyButton className="bg-[#167FA6]">Ver servicios</ShinyButton>
+              <ShinyButton className="bg-primary">Ver servicios</ShinyButton>
             </div>
           </div>
           <div className="hidden lg:mt-0 lg:col-span-5 lg:flex relative">

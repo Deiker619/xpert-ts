@@ -19,7 +19,7 @@ export const CurseSection = () => {
           <AuroraText colors={["#45AEBA", "#167FA6", "#02196b"]}>
             Ver los mejores cursos
           </AuroraText>
-          <div className="absolute inset-x-0 w-1/2 -z-1 h-20 bg-[#167FA6] blur-3xl opacity-20"></div>
+          <div className="absolute inset-x-0 w-1/2 -z-1 h-20 bg-primary blur-3xl opacity-20"></div>
         </h3>
       </div>
       <RetroGrid></RetroGrid>
@@ -53,7 +53,7 @@ export const CurseSection = () => {
             <div className="size-full max-w-lg flex flex-col items-center justify-center overflow-hidden pt-8">
               <BoxReveal boxColor={"#167FA6"} duration={0.5}>
                 <p className="text-[3.5rem] font-semibold text-center">
-                  Inscribete<span className="text-[#167FA6]">.</span>
+                  Inscribete<span className="text-primary">.</span>
                 </p>
               </BoxReveal>
 
@@ -63,16 +63,16 @@ export const CurseSection = () => {
                 <div className="mt-6 ">
                   <p className="text-center">
                      20+ free and open-source animated components built with 
-                    <span className="font-semibold text-[#167FA6]"> React</span>,
-                    <span className="font-semibold text-[#167FA6]">Typescript</span>,
-                    <span className="font-semibold text-[#167FA6]">Tailwind CSS</span>,
+                    <span className="font-semibold text-primary"> React</span>,
+                    <span className="font-semibold text-primary">Typescript</span>,
+                    <span className="font-semibold text-primary">Tailwind CSS</span>,
 
                   </p>
                 </div>
               </BoxReveal>
 
               <BoxReveal boxColor={"#167FA6"} duration={0.5}>
-                <Button className="mt-[1.6rem] bg-[#167FA6]">Explorar cursos</Button>
+                <Button className="mt-[1.6rem] bg-primary">Explorar cursos</Button>
               </BoxReveal>
             </div>
           </div>
