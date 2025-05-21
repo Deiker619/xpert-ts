@@ -31,7 +31,7 @@ export const Home = () => {
                 Conviertete en tu mejor versión
               </TextAnimate>
             </h2>
-            <h2 className="text-4xl font-extrabold leading-none tracking-tight text-[#167FA6] md:text-2xl lg:text-6xl dark:text-white">
+            <h2 className="text-4xl font-extrabold leading-none tracking-tight text-primary md:text-2xl lg:text-6xl dark:text-white">
               <TextAnimate animation="blurIn">Sé un Xpert</TextAnimate>
             </h2>
           </div>
@@ -53,7 +53,7 @@ export const Home = () => {
 
             <div className="absolute h-auto w-auto left-10  z-1">
               <i>
-                <p className="pointer-events-none z-10 whitespace-pre-wrap text-center text-8xl font-semibold leading-none text-transparent bg-clip-text bg-gradient-to-r from-[#167FA6] ">
+                <p className="pointer-events-none z-10 whitespace-pre-wrap text-center text-8xl font-semibold leading-none text-transparent bg-clip-text bg-gradient-to-r from-primary ">
                   BYTES
                 </p>
               </i>
