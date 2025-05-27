@@ -18,11 +18,11 @@ export const ServiceSection = () => {
       >
         {/* <!-- Contenido principal --> */}
         <div className="w-full h-full col-span-7 flex flex-col items-center justify-center z-10  gap-2 md:mb-20 mb-50">
-          <div className="grid w-full md:h-130 h-auto grid-cols-5 gap-3 p-4 ">
-            <div className="md:col-span-1 col-span-4 h-full  place-items-center rounded-2xl">
+          <div className="grid w-full md:h-130 h-auto grid-cols-6 md:grid-cols-5 gap-3 p-4 ">
+            <div className="md:col-span-1 col-span-6 h-full w-full  place-items-center rounded-2xl">
               <BentoCard
                 name={"Metodologias Agiles"}
-                className={"h-50 w-60"}
+                className={"md:h-50 md:w-60 h-40 w-full"}
                 colorTextTitle="bg-blue/30 backdrop-blur-lg rounded-lg"
                 background={
                   <img
@@ -36,10 +36,10 @@ export const ServiceSection = () => {
                 cta={"Solicitar"}
               ></BentoCard>
             </div>
-            <div className="md:col-span-1 col-span-4 h-full place-items-center  rounded-2xl">
+            <div className="md:col-span-1 col-span-6 h-full place-items-center  rounded-2xl">
               <BentoCard
                 name={"Blockchain"}
-                className={"h-50 w-60"}
+                className={"md:h-50 md:w-60 h-40 w-full"}
                 colorTextTitle={"text-yellow-400 bg-blue/30 backdrop-blur-lg rounded-lg"}
                 colorTextDescription="text-white"
                 background={
@@ -54,10 +54,10 @@ export const ServiceSection = () => {
                 cta={"Solicitar"}
               ></BentoCard>
             </div>
-            <div className="md:col-span-1 col-span-4 h-full place-items-center  rounded-2xl">
+            <div className="md:col-span-1 col-span-6 h-full place-items-center  rounded-2xl">
               <BentoCard
                 name={"Inteligencia Artificial"}
-                className={"h-50 w-60"}
+                className={"md:h-50 md:w-60 h-40 w-full"}
                 colorTextTitle={"text-blue-400 bg-blue/30 backdrop-blur-lg rounded-lg"}
                 background={
                   <img
@@ -71,10 +71,10 @@ export const ServiceSection = () => {
                 cta={"Solicitar"}
               ></BentoCard>
             </div>
-            <div className="md:col-span-1 col-span-4 h-full place-items-center  rounded-2xl">
+            <div className="md:col-span-1 col-span-6 h-full place-items-center  rounded-2xl">
               <BentoCard
                 name={"Idiomas"}
-                className={"h-50 w-60"}
+                className={"md:h-50 md:w-60 h-40 w-full"}
                 colorTextDescription={"text-white"}
                 colorTextTitle="bg-blue/30 backdrop-blur-lg rounded-lg"
                 background={
@@ -89,12 +89,12 @@ export const ServiceSection = () => {
                 cta={"Solicitar"}
               ></BentoCard>
             </div>
-            <div className="md:col-span-1 col-span-4 h-full place-items-center  rounded-2xl">
+            <div className="md:col-span-1 col-span-6 h-full place-items-center  rounded-2xl">
               <BentoCard
                 name={"Desarrollo"}
                 colorTextDescription="text-white "
                 colorTextTitle="text-blue-500 font-bold bg-blue/30 backdrop-blur-lg rounded-lg"
-                className={"h-50 w-60"}
+                className={"md:h-50 md:w-60 h-40 w-full"}
                 background={
                   <img
                     src="img/home/desarrollo_min.jpg"
@@ -107,10 +107,10 @@ export const ServiceSection = () => {
                 cta={"Solicitar"}
               ></BentoCard>
             </div>
-            <div className="md:col-span-1 col-span-4 h-full place-items-center  rounded-2xl">
+            <div className="md:col-span-1 col-span-6 h-full place-items-center  rounded-2xl">
               <BentoCard
                 name={"Soft Skills"}
-                className={"h-50 w-60"}
+                className={"md:h-50 md:w-60 h-40 w-full"}
                 colorTextTitle={"text-yellow-400 bg-blue/30 backdrop-blur-lg rounded-lg"}
                 colorTextDescription="text-white"
                 background={
@@ -125,10 +125,10 @@ export const ServiceSection = () => {
                 cta={"Solicitar"}
               ></BentoCard>
             </div>
-            <div className="md:col-span-1 col-span-4 h-full place-items-center  rounded-2xl">
+            <div className="md:col-span-1 col-span-6 h-full place-items-center  rounded-2xl">
               <BentoCard
                 name={"Arquitectura"}
-                className={"h-50 w-60"}
+                className={"md:h-50 md:w-60 h-40 w-full"}
                 colorTextTitle={"text-white bg-blue/30 backdrop-blur-lg rounded-lg"}
                 background={
                   <img
@@ -142,10 +142,10 @@ export const ServiceSection = () => {
                 cta={"Solicitar"}
               ></BentoCard>
             </div>
-            <div className="md:col-span-1  col-span-4 h-full place-items-center  rounded-2xl">
+            <div className="md:col-span-1  col-span-6 h-full place-items-center  rounded-2xl">
               <BentoCard
                 name={"Ciberseguridad"}
-                className={"h-50 w-60"}
+                className={"md:h-50 md:w-60 h-40 w-full"}
                 colorTextTitle={"text-[#58bcc7] bg-cyan/30 backdrop-blur-lg rounded-lg font-extrabold"}
                 colorTextDescription={"text-white"}
                 background={
@@ -160,10 +160,10 @@ export const ServiceSection = () => {
                 cta={"Solicitar"}
               ></BentoCard>
             </div>
-            <div className="md:col-span-1  col-span-4 h-full place-items-center  rounded-2xl">
+            <div className="md:col-span-1  col-span-6 h-full place-items-center  rounded-2xl">
               <BentoCard
                 name={"IBM AS400"}
-                className={"h-50 w-60"}
+                className={"md:h-50 md:w-60 h-40 w-full"}
                 colorTextTitle={"text-blue-500 bg-blue/30 backdrop-blur-lg rounded-lg font-extrabold"}
                 colorTextDescription={"text-white"}
                 background={
@@ -178,10 +178,10 @@ export const ServiceSection = () => {
                 cta={"Solicitar"}
               ></BentoCard>
             </div>
-            <div className="md:col-span-1  col-span-4 h-full place-items-center  rounded-2xl">
+            <div className="md:col-span-1  col-span-6 h-full place-items-center  rounded-2xl">
               <BentoCard
                 name={"Base de datos"}
-                className={"h-50 w-60"}
+                className={"md:h-50 md:w-60 h-40 w-full"}
                 colorTextTitle={"text-[#58bcc7] bg-blue/30 backdrop-blur-lg rounded-lg font-extrabold"}
                 colorTextDescription={"text-white"}
                 background={

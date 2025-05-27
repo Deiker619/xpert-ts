@@ -51,14 +51,14 @@ import { ServiceSection } from "./components/servicesSection";
               <div className=" w-100 h-100 rounded-full relative"></div>
             </div>
 
-            <div className="absolute h-auto w-auto left-10  z-1">
+            <div className="hidden md:block absolute h-auto w-auto left-10  z-1">
               <i>
                 <p className="pointer-events-none z-10 whitespace-pre-wrap text-center text-8xl font-semibold leading-none text-transparent bg-clip-text bg-gradient-to-r from-primary ">
                   BYTES
                 </p>
               </i>
             </div>
-            <div className="absolute h-auto w-auto right-10  z-1">
+            <div className="hidden md:block absolute h-auto w-auto right-10  z-1">
               <p className="pointer-events-none z-10 whitespace-pre-wrap text-center text-8xl font-semibold leading-none text-transparent bg-clip-text bg-gradient-to-r to-[#02196b]">
                 XPERT
               </p>
