@@ -187,8 +187,8 @@
 
 
 @theme {
-  --color-primary: #167FA6;
+  --color-primary: #Ff6600;/* #Ff6600; naranja */ 
   --color-secondary: #02196b;
-  --color-thirty: #Ff6600;
+  --color-thirty: #167FA6;
   --color-quarter:#455fac;
 }

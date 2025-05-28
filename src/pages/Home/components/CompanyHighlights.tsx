@@ -6,7 +6,7 @@ export const CompanyHighlights = () => {
       <section className="flex flex-col items-center h-auto w-full mb-10 relative -top-20">
         <div className="flex flex-col bg-quarter rounded-3xl w-full md:w-[80%] h-full justify-center items-center">
           <div className="grid md:grid-cols-9 gap-3 w-full h-full p-5">
-            <div className="bg-primary p-2 col-span-10 md:col-span-3 rounded-xl">
+            <div className="bg-thirty p-2 col-span-10 md:col-span-3 rounded-xl">
               <div className="grid grid-cols-3 place-items-center">
                 <div className="flex flex-col p-2 shrink-0 col-span-3">
                   <h3 className="text-3xl font-extrabold leading-none tracking-tight text-white md:text-5xl lg:text-6xl dark:text-white">
