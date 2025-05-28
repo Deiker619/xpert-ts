@@ -36,9 +36,9 @@ export function RetroGrid({
   className,
   angle = 65,
   cellSize = 60,
-  opacity = 0.5,
-  lightLineColor = "gray",
-  darkLineColor = "gray",
+  opacity = 2,
+  lightLineColor = "orange",
+  darkLineColor = "orange",
   ...props
 }: RetroGridProps) {
   const gridStyles = {

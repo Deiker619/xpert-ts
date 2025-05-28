@@ -1,6 +1,6 @@
 import { Card } from "@/components/card/Card";
 import { RetroGrid } from "@/components/magicui/retro-grid";
-import { AuroraText } from "@/components/magicui/aurora-text";
+
 import {
   Carousel,
   CarouselContent,
@@ -14,14 +14,7 @@ import { BoxReveal } from "@/components/magicui/box-reveal";
 export const CurseSection = () => {
   return (
     <section className=" border gap-4 h-auto flex flex-col ml-6 mr-6 rounded-2xl mb-2 relative ">
-      <div className="flex flex-col w-full justify-center items-center p-6 relative">
-        <h3 className="text-3xl text-center font-bold  tracking-tight leading-none md:text-4xl lg:text-6xl flex flex-col ">
-          <AuroraText colors={["#45AEBA", "#167FA6", "#02196b"]}>
-            Ver los mejores cursos
-          </AuroraText>
-          <div className="absolute inset-x-0 w-1/2 -z-1 h-20 bg-primary blur-3xl opacity-20"></div>
-        </h3>
-      </div>
+      
       <RetroGrid></RetroGrid>
       {/* Cursos */}
       <div className="flex justify-center items-center w-full mx-auto container p-10 z-10">
@@ -57,22 +50,9 @@ export const CurseSection = () => {
                 </p>
               </BoxReveal>
 
-              
 
               <BoxReveal boxColor={"#167FA6"} duration={0.5}>
-                <div className="mt-6 ">
-                  <p className="text-center">
-                     20+ free and open-source animated components built with 
-                    <span className="font-semibold text-primary"> React</span>,
-                    <span className="font-semibold text-primary">Typescript</span>,
-                    <span className="font-semibold text-primary">Tailwind CSS</span>,
-
-                  </p>
-                </div>
-              </BoxReveal>
-
-              <BoxReveal boxColor={"#167FA6"} duration={0.5}>
-                <Button className="mt-[1.6rem] bg-primary">Explorar cursos</Button>
+                <Button className="mt-[1.6rem] bg-primary">Inscribete</Button>
               </BoxReveal>
             </div>
           </div>

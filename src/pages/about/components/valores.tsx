@@ -15,7 +15,7 @@ export const Valores = () => {
       <div className="flex flex-col justify-center items-center  w-full h-full gap-4 ">
         <div className="grid grid-cols-4 w-full p-4 gap-4">
           <div className="col-span-4 md:col-span-1 p-4 flex flex-col  w-full justify-center items-center ">
-            <div className="bg-white border border-gray-900 rounded-2xl h-50 w-60 relative shadow-lg">
+            <div className="bg-white border border-thirty rounded-2xl h-50 w-60 relative shadow-lg">
               <div className="absolute bg-white  h-16 w-16  -top-4 left-[34%]   rounded-full">
                 <img src="img/about/valores/etica.png" alt="" />
               </div>
@@ -34,7 +34,7 @@ export const Valores = () => {
             </div>
           </div>
           <div className="col-span-4 md:col-span-1 p-4 flex flex-col  w-full justify-center items-center ">
-            <div className="bg-white border border-gray-900 rounded-2xl h-50 w-60 relative shadow-lg">
+            <div className="bg-white border border-thirty rounded-2xl h-50 w-60 relative shadow-lg">
               <div className="absolute bg-white  h-16 w-16 -top-4 left-[34%]   rounded-full">
                 <img
                   src="img/about/valores/excelencia.png"
@@ -56,7 +56,7 @@ export const Valores = () => {
             </div>
           </div>
           <div className="col-span-4 md:col-span-1 p-4 flex flex-col  w-full justify-center items-center ">
-            <div className="bg-white border border-gray-900 rounded-2xl h-50 w-60 relative shadow-lg">
+            <div className="bg-white border border-thirty rounded-2xl h-50 w-60 relative shadow-lg">
               <div className="absolute bg-white  h-16 w-16 -top-4 left-[34%]   rounded-full">
                 <img
                   src="img/about/valores/innovacion.png"
@@ -78,7 +78,7 @@ export const Valores = () => {
             </div>
           </div>
           <div className="col-span-4 md:col-span-1 p-4 flex flex-col  w-full justify-center items-center ">
-            <div className="bg-white border border-gray-900 rounded-2xl h-50 w-60 relative shadow-lg">
+            <div className="bg-white border border-thirty rounded-2xl h-50 w-60 relative shadow-lg">
               <div className="absolute bg-white  h-16 w-16  -top-4 left-[34%] rounded-full">
                 <img
                   src="img/about/valores/liderazgo.png"

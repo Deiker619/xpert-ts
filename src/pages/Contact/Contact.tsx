@@ -12,7 +12,7 @@ const Contact = () => {
         messageHeader="message"
       ></Header>
 
-      <div className="h-110 w-full bg-amber-300 mt-20 mb-30 py-4 ">
+      <div className="h-110 w-full bg-gray-900 mt-20 mb-30 py-4 ">
         <div className="ml-6 mr-6 flex flex-col h-full border  relative">
           <div className="grid grid-cols-7  h-full w-full">
             <div className="col-span-4 bg-red-300 flex flex-col">

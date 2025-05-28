@@ -1,5 +1,4 @@
 import { BentoCard } from "@/components/magicui/bento-grid";
-import { Button } from "@/components/ui/button";
 import {
   Component2Icon,
   GlobeIcon,
@@ -31,7 +30,7 @@ export const ServiceSection = () => {
                   />
                 }
                 Icon={LayersIcon}
-                description={"+100 cursos personalizados "}
+                description={""}
                 href={""}
                 cta={"Solicitar"}
               ></BentoCard>
@@ -49,7 +48,7 @@ export const ServiceSection = () => {
                   />
                 }
                 Icon={GlobeIcon}
-                description={"+100 cursos personalizados "}
+                description={""}
                 href={""}
                 cta={"Solicitar"}
               ></BentoCard>
@@ -66,7 +65,7 @@ export const ServiceSection = () => {
                   />
                 }
                 Icon={PersonIcon}
-                description={"+100 cursos personalizados "}
+                description={""}
                 href={""}
                 cta={"Solicitar"}
               ></BentoCard>
@@ -84,7 +83,7 @@ export const ServiceSection = () => {
                   />
                 }
                 Icon={SpeakerQuietIcon}
-                description={"+100 cursos personalizados "}
+                description={""}
                 href={""}
                 cta={"Solicitar"}
               ></BentoCard>
@@ -102,7 +101,7 @@ export const ServiceSection = () => {
                   />
                 }
                 Icon={LayersIcon}
-                description={"+100 cursos personalizados "}
+                description={""}
                 href={""}
                 cta={"Solicitar"}
               ></BentoCard>
@@ -120,7 +119,7 @@ export const ServiceSection = () => {
                   />
                 }
                 Icon={GlobeIcon}
-                description={"+100 cursos personalizados "}
+                description={""}
                 href={""}
                 cta={"Solicitar"}
               ></BentoCard>
@@ -137,7 +136,7 @@ export const ServiceSection = () => {
                   />
                 }
                 Icon={PersonIcon}
-                description={"+100 cursos personalizados "}
+                description={""}
                 href={""}
                 cta={"Solicitar"}
               ></BentoCard>
@@ -155,7 +154,7 @@ export const ServiceSection = () => {
                   />
                 }
                 Icon={Component2Icon}
-                description={"+100 cursos personalizados "}
+                description={""}
                 href={""}
                 cta={"Solicitar"}
               ></BentoCard>
@@ -173,7 +172,7 @@ export const ServiceSection = () => {
                   />
                 }
                 Icon={ComputerIcon}
-                description={"+100 cursos personalizados "}
+                description={""}
                 href={""}
                 cta={"Solicitar"}
               ></BentoCard>
@@ -191,7 +190,7 @@ export const ServiceSection = () => {
                   />
                 }
                 Icon={Table2Icon}
-                description={"+100 cursos personalizados "}
+                description={""}
                 href={""}
                 cta={"Solicitar"}
               ></BentoCard>
@@ -204,27 +203,7 @@ export const ServiceSection = () => {
 
         {/*Gradiente azul de fondo  */}
         <div className="absolute top-0 left-0 w-full h-full z-0  bg-dark-900 opacity-50"></div>
-        {/* Viñeta inferior */}
-        <div className="absolute  md:right-50 right-20 -bottom-1 w-50 h-20 rounded-2xl z-10 bg-white ">
-          {/* <!-- viñeta para redondear --> */}
-
-          {/* <!-- Message header --> */}
-          <div className="absolute w-full h-full bg-cover rounded-t-full bg-transparent overflow-hidden z-10">
-            <div className="rounded h-full w-full absolute  p-1">
-              <div className="w-full h-full rounded-lg backdrop-blur-lg flex flex-col justify-center items-center p-2">
-                <Button className="z-10 bg-primary">Explorar cursos</Button>
-              </div>
-            </div>
-          </div>
-
-          {/* <!-- viñeta para redondear --> */}
-          <div className="absolute bottom-0 left-[-48px] size-16 w-12 h-12 bg-transparent rotate-[-4deg] rounded-lg pointer-events-none">
-            <div className="w-12 h-12 rounded-full shadow-[35px_35px_0_10px_white]"></div>
-          </div>
-          <div className="absolute -right-12 bottom-0 size-16 w-12 h-12 bg-trasparent rotate-[-270deg] rounded-lg pointer-events-none">
-            <div className="w-12 h-12 rounded-full shadow-[35px_35px_0_10px_white]"></div>
-          </div>
-        </div>
+        
         {/* Viñeta superior */}
         <div className="absolute inset-x-0 left-12 -top-0 md:w-90 w-60 h-11 rounded-2xl z-10 bg-white ">
           {/* <!-- viñeta para redondear --> */}

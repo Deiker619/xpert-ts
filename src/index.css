@@ -173,7 +173,10 @@
 *{
   font-family: "Monda", sans-serif;
   font-optical-sizing: auto;
-  font-style: normal;
+}
+
+.italic{
+  font-style: italic;
 }
 .parallax {
   background-attachment: fixed; /* Fija la imagen de fondo */
@@ -186,4 +189,6 @@
 @theme {
   --color-primary: #167FA6;
   --color-secondary: #02196b;
+  --color-thirty: #Ff6600;
+  --color-quarter:#455fac;
 }
