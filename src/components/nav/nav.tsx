@@ -10,7 +10,7 @@ export const Nav = ({ Rutas }: { Rutas: Ruta[] }) => {
           href="https://flowbite.com/"
           className="flex items-center space-x-3 rtl:space-x-reverse"
         >
-          <img src="img/logo.png" className="h-10 w-auto" alt="Flowbite Logo" />
+          <img src="img/logo.png" className="h-10 w-auto object-cover" alt="Flowbite Logo" />
         </a>
         <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
           
