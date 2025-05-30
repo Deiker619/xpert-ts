@@ -1,20 +1,36 @@
 import { RetroGrid } from "@/components/magicui/retro-grid";
+import { RainbowButton } from "@/components/magicui/rainbow-button";
 
-import { Button } from "@/components/ui/button";
 import { BoxReveal } from "@/components/magicui/box-reveal";
+import CardCurse from "./CardCurse";
+import TitileWithDescription from "./TitileWithDescription";
 
 export const CurseSection = () => {
   return (
     <section className=" border gap-4 h-auto flex flex-col ml-6 mr-6 rounded-2xl mb-2 relative ">
       <RetroGrid></RetroGrid>
-      {/* Cursos */}
-      <div className="flex justify-center items-center w-full mx-auto container p-10 z-10">
+      <div className="p-6">
+        <TitileWithDescription></TitileWithDescription>
+      </div>
+
+      <div className="flex justify-center items-center w-full mx-auto container p-4 z-10">
         <div className="grid grid-cols-12 place-content-center items-center w-full gap-4">
-          <div className="col-span-7 grid grid-cols-3  gap-2 ">
-            <div className="bg-red-100 h-80 w-full col-span-1">a</div>
-            <div className="bg-red-100 h-full w-full col-span-1">a</div>
-            <div className="bg-red-100 h-full w-full col-span-1">a</div>
-         
+          <div className="col-span-7 grid grid-cols-3 gap-2 ">
+            <CardCurse
+              description="Clases interactivas en tiempo real, donde podrás resolver dudas al instante."
+              img="home/curso_online.png"
+              title="Cursos personalizados"
+            ></CardCurse>
+            <CardCurse
+              description="Formación práctica y adaptada directamente en tu lugar de trabajo."
+              img="home/empresa.png"
+              title="Talleres en empresa"
+            ></CardCurse>
+            <CardCurse
+              description="Avanza según tu disponibilidad y estilo de aprendizaje, sin presiones."
+              img="home/tiempo.png"
+              title="Aprendizaje a tu ritmo"
+            ></CardCurse>
           </div>
           <div className="col-span-5  flex flex-col justify-end items-center w-full">
             <div className="size-full max-w-lg flex flex-col items-center justify-center overflow-hidden pt-8">
@@ -25,7 +41,7 @@ export const CurseSection = () => {
               </BoxReveal>
 
               <BoxReveal boxColor={"#167FA6"} duration={0.5}>
-                <Button className="mt-[1.6rem] bg-primary">Inscribete</Button>
+                <RainbowButton variant="default" className="w-50">Inscribete</RainbowButton>
               </BoxReveal>
             </div>
           </div>
