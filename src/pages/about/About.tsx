@@ -2,7 +2,7 @@ import { Header } from "@/components/Header/Header";
 import { MisionVision } from "./components/MisionVision";
 import { Valores } from "./components/valores";
 
- const About = () => {
+const About = () => {
   return (
     <>
       <Header
@@ -10,8 +10,7 @@ import { Valores } from "./components/valores";
         titleHeader={"Impulsa tu Carrera en lo Digital"}
         descriptionHeader={"con los mejores xpertos"}
         messageHeader={"Innovación que conecta, formación que transforma"}
-      >
-      </Header>
+      ></Header>
       <div className="mt-10">
         <MisionVision></MisionVision>
       </div>
@@ -21,4 +20,4 @@ import { Valores } from "./components/valores";
     </>
   );
 };
-export default About
+export default About;

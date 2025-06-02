@@ -4,19 +4,12 @@ import { motion } from "motion/react";
 export const MisionVision = () => {
   return (
     <>
-      <section className="w-full flex flex-col h-[400px] py-2 relative">
+      <section className="w-full flex flex-col h-auto py-2 relative">
         <div className="absolute w-70 h-52 bg-gray-900 blur-[160px] opacity-40 inset-y-0 left-0 -z-1"></div>
         <div className="grid grid-cols-12 gap-3 h-full ml-6 mr-6">
-          <div className="col-span-6 bg-white rounded-2xl flex flex-col overflow-hidden relative">
-            <div className="absolute w-30 h-30 rounded-full backdrop-blur-2xl z-1  top-0 right-0">
-              <img
-                src="img/about/mision.svg"
-                className="h-full w-full"
-                alt=""
-              />
-            </div>
-            <div className="flex flex-col w-full h-full p-2">
-              <div className="relative flex h-[500px] w-full flex-col items-center justify-center overflow-hidden rounded-lg border bg-background">
+          <div className="col-span-12 h-130 bg-white rounded-2xl flex flex-col overflow-hidden relative">
+            <div style={{backgroundImage: "url('img/home/fondo.png')",}} className="flex flex-col justify-center items-end w-full h-full p-2 bg-center bg-cover bg-no-repeat">
+              <div  className="relative flex h-full w-[60%] flex-col ml-6 justify-center overflow-hidden rounded-lg  ">
                 <motion.span
                   initial={{ opacity: 0, x: -100 }}
                   whileInView={{ opacity: 1, x: 0 }}
@@ -30,9 +23,10 @@ export const MisionVision = () => {
                   className="absolute inset-0 z-0 h-full"
                   quantity={100}
                   ease={80}
-                  color={"#167FA6"}
+                  color={"#455fac"}
                   refresh
                 />
+                
                 <div className="flex flex-col z-1">
                   <p className="text-gray-900 text-lg p-4 text-center">
                     Empoderamos a profesionales y empresas a través de una
@@ -48,36 +42,34 @@ export const MisionVision = () => {
                   </p>
                 </div>
               </div>
+              <img src="img/home/logoazuprueba.png" className="absolute inset-y-0 -left-80  h-full opacity-40" alt="algo"  />
+
             </div>
+            
           </div>
-          <div className="col-span-6 bg-white rounded-2xl flex flex-col overflow-hidden relative">
-            <div className="absolute w-30 h-30 rounded-full  z-1  top-0 right-0">
-              <img
-                src="img/about/vision.svg"
-                className="h-full w-full"
-                alt=""
-              />
-            </div>
-            <div className="flex flex-col w-full h-full p-2">
-              <div className="relative flex h-[500px] w-full flex-col items-center justify-center overflow-hidden rounded-lg border bg-background">
+          <div className="col-span-12 h-130 bg-white rounded-2xl flex flex-col overflow-hidden relative">
+            
+            <div style={{backgroundImage: "url('img/home/10302.jpg')",}} className="flex flex-col justify-center items-start w-full h-full p-2 bg-center bg-cover bg-no-repeat">
+              <div  className="relative flex h-full w-[60%] flex-col ml-6 justify-center overflow-hidden rounded-lg  ">
                 <motion.span
                   initial={{ opacity: 0, x: -100 }}
                   whileInView={{ opacity: 1, x: 0 }}
                   transition={{ duration: 0.8, ease: "easeOut" }}
                   viewport={{ once: true }}
-                  className="pointer-events-none z-10 whitespace-pre-wrap text-center text-8xl font-semibold leading-none text-transparent bg-clip-text bg-gradient-to-r to-[white] from-"
+                  className="pointer-events-none z-10 whitespace-pre-wrap text-center text-8xl font-semibold leading-none text-transparent bg-clip-text bg-gradient-to-r to-[white] from-white"
                 >
                   Visión
                 </motion.span>
                 <Particles
-                  className="absolute inset-0 z-0 bg-gray-900"
+                  className="absolute inset-0 z-0 h-full"
                   quantity={100}
                   ease={80}
                   color={"#ffffff"}
                   refresh
                 />
+                
                 <div className="flex flex-col z-1">
-                  <p className="text-white text-lg p-4 text-center">
+                  <p className="text-white text-lg p-4 text-center font-light">
                     Ser la plataforma líder en formación y consultoría para el
                     mundo hispanohablante, impulsando la transformación digital
                     a nivel global. Aspiramos a revolucionar la educación
@@ -89,6 +81,8 @@ export const MisionVision = () => {
                   </p>
                 </div>
               </div>
+              <img src="img/home/logonaranjaprueba.png" className="absolute inset-y-0 -right-80  h-full opacity-40" alt="algo"  />
+
             </div>
           </div>
         </div>

@@ -1,3 +1,4 @@
+import { InstagramLogoIcon, LinkedInLogoIcon, TwitterLogoIcon } from "@radix-ui/react-icons";
 
 
 export const Footer = () => {
@@ -17,52 +18,31 @@ export const Footer = () => {
           <div className="grid grid-cols-2 gap-8 sm:gap-6 col-span-2 md:col-span-1">
             <div className="col-span-1">
               <ul className="text-gray-500 font-xs">
-                <li className="mb-1">
+                <li className="mb-1 flex gap-4 items-center">
+                  <InstagramLogoIcon className="size-9"></InstagramLogoIcon>
                   <a
                     href="about.html"
                     className="text-white opacity-40 font-sm hover:text-white hover:opacity-100"
                   >
-                    Quienes somos
+                    Instagram
                   </a>
                 </li>
-                <li className="mb-1">
+                <li className="mb-1 flex gap-4">
+                  <LinkedInLogoIcon className="size-9"></LinkedInLogoIcon>
                   <a
                     href="soluciones.html"
                     className="text-white opacity-40 font-xs hover:text-white hover:opacity-100"
                   >
-                    Soluciones
+                    LinkedIn
                   </a>
                 </li>
-                <li className="mb-1">
+                <li className="mb-1 flex gap-4">
+                  <TwitterLogoIcon className="size-9"></TwitterLogoIcon>
                   <a
                     href="servicios.html"
                     className="text-white opacity-40 font-xs hover:text-white hover:opacity-100"
                   >
-                    Servicios
-                  </a>
-                </li>
-                <li className="mb-1">
-                  <a
-                    href="asesorias.html"
-                    className="text-white opacity-40 font-xs hover:text-white hover:opacity-100"
-                  >
-                    Asesoria
-                  </a>
-                </li>
-                <li className="mb-1">
-                  <a
-                    href="capacitacion.html"
-                    className="text-white opacity-40 font-xs hover:text-white hover:opacity-100"
-                  >
-                    Capacitación
-                  </a>
-                </li>
-                <li className="mb-1">
-                  <a
-                    href="contacto.html"
-                    className="text-white opacity-40 font-xs hover:opacity-100"
-                  >
-                    Contacto
+                    Twitter
                   </a>
                 </li>
               </ul>
@@ -85,18 +65,14 @@ export const Footer = () => {
               <a
                 target="_blank"
                 href="https://www.instagram.com/bytescreativos.ve/"
-              >
-              
-              </a>
+              ></a>
             </div>
 
             <div className="">
               <a
                 target="_blank"
                 href="https://www.linkedin.com/company/bytes-creativos/"
-              >
-             
-              </a>
+              ></a>
             </div>
           </div>
         </div>

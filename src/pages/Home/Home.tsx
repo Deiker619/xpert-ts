@@ -15,9 +15,7 @@ const Home = () => {
         titleHeader="Convierte en tu Mejor Versión"
         descriptionHeader="Sé un Xpert"
         messageHeader="Innovación que conecta, formación que transforma"
-      >
-
-      </Header>
+      ></Header>
       {/* FIXME: Se utilizará en about  */}
       {/* <BlurFade delay={0.25} inView>
         <IntroSection></IntroSection>
@@ -27,16 +25,11 @@ const Home = () => {
         <div className="flex flex-col justify-center items-center">
           <div className="flex flex-col justify-center items-center gap-4 mb-4 h-40">
             <h2 className=" text-3xl text-center italic text-gray-900 md:text-5xl lg:text-xl md:text-start dark:text-white">
-              
-                <TextAnimate animation="blurIn">
-
-                  "Innovación que conecta, formación que transforma"
-                </TextAnimate>
-              
+              <TextAnimate animation="blurIn">
+                "Innovación que conecta, formación que transforma"
+              </TextAnimate>
             </h2>
-
           </div>
-          
         </div>
         <BlurFade delay={0.25} inView>
           <div className="w-full flex justify-center items-center overflow-x-visible relative ">
@@ -50,11 +43,9 @@ const Home = () => {
             </div>
 
             <div className="hidden md:block absolute h-auto w-auto left-10  z-1">
-              
-                <p className="pointer-events-none z-10 whitespace-pre-wrap text-center text-8xl font-semibold leading-none text-transparent bg-clip-text bg-gradient-to-r from-primary ">
-                  BYTES
-                </p>
-              
+              <p className="pointer-events-none z-10 whitespace-pre-wrap text-center text-8xl font-semibold leading-none text-transparent bg-clip-text bg-gradient-to-r from-thirty ">
+                BYTES
+              </p>
             </div>
             <div className="hidden md:block absolute h-auto w-auto right-10  z-1">
               <p className="pointer-events-none z-10 whitespace-pre-wrap text-center text-8xl font-semibold leading-none text-transparent bg-clip-text bg-gradient-to-r to-[#02196b]">
@@ -83,4 +74,4 @@ const Home = () => {
   );
 };
 
-export default Home
+export default Home;
