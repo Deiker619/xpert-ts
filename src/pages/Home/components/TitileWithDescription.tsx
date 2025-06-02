@@ -4,12 +4,12 @@ const TitileWithDescription = () => {
   return (
     <>
       <div className="w-full flex flex-col ml-5">
-        <div className="flex flex-col justify-start ">
-          <p className="text-3xl">
-            <TextAnimate animation="slideLeft" by="character">
+        <div className="flex flex-col justify-start">
+          
+            <TextAnimate className="text-3xl" animation="slideLeft" by="character">
               Modalidades de Cursos
             </TextAnimate>
-          </p>
+          
         </div>
         <div className="flex flex-col w-200">
           <p className="text-lg">

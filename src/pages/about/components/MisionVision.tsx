@@ -69,7 +69,7 @@ export const MisionVision = () => {
                 />
                 
                 <div className="flex flex-col z-1">
-                  <p className="text-white text-lg p-4 text-center">
+                  <p className="text-white text-lg p-4 text-center font-light">
                     Ser la plataforma líder en formación y consultoría para el
                     mundo hispanohablante, impulsando la transformación digital
                     a nivel global. Aspiramos a revolucionar la educación
