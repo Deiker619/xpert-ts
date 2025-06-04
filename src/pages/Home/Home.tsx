@@ -7,19 +7,17 @@ import { Ripple } from "@/components/magicui/ripple";
 
 import { ServiceSection } from "./components/servicesSection";
 
+
 const Home = () => {
+  
   return (
     <>
       <Header
         bgHeader={"url('img/bg.jpg')"}
-        titleHeader="Convierte en tu Mejor Versión"
+        titleHeader="Conviertete en tu Mejor Versión"
         descriptionHeader="Sé un Xpert"
         messageHeader="Innovación que conecta, formación que transforma"
       ></Header>
-      {/* FIXME: Se utilizará en about  */}
-      {/* <BlurFade delay={0.25} inView>
-        <IntroSection></IntroSection>
-      </BlurFade> */}
       <section className="h-[600px] flex flex-col mt-4">
         {/* <!-- Title --> */}
         <div className="flex flex-col justify-center items-center">
