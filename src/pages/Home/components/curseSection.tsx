@@ -1,10 +1,12 @@
 import { RetroGrid } from "@/components/magicui/retro-grid";
-import { RainbowButton } from "@/components/magicui/rainbow-button";
+
 
 import { BoxReveal } from "@/components/magicui/box-reveal";
 import CardCurse from "./CardCurse";
 import TitileWithDescription from "./TitileWithDescription";
 import { motion } from "motion/react";
+import { Modal } from "./Modal";
+import { RainbowButton } from "@/components/magicui/rainbow-button";
 
 export const CurseSection = () => {
   return (
@@ -63,9 +65,14 @@ export const CurseSection = () => {
               </BoxReveal>
 
               <BoxReveal boxColor={"#167FA6"} duration={0.5}>
-                <RainbowButton variant="default" className="w-50">
-                  Inscribete
-                </RainbowButton>
+
+                <Modal
+                  elementTrigger={<RainbowButton variant="default" className="w-50">Inscribete</RainbowButton>}
+                  titleModal="descripcion"
+                >
+
+                  <p>Prueba</p>
+                </Modal>
               </BoxReveal>
             </div>
           </div>
@@ -74,3 +81,4 @@ export const CurseSection = () => {
     </section>
   );
 };
+

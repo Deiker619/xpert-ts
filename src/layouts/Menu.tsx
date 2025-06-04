@@ -35,7 +35,6 @@ export const Menu = () => {
   const { getCookies, LoadModalCookie } = useCookieContext()
   useEffect(() => {
     if (!getCookies()) LoadModalCookie();
-
   });
   return (
     <>

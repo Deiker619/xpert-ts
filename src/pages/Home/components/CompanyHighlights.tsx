@@ -40,7 +40,7 @@ export const CompanyHighlights = () => {
                 <h3 className="text-3xl text-center font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-5xl dark:text-white">
                   <NumberTicker
                     value={1000}
-                    className="text-3xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white"
+                    className="text-2xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-5xl dark:text-white"
                   />
                   +
                 </h3>
