@@ -18,12 +18,13 @@ export const CurseSection = () => {
 
       <div className="flex justify-center items-center w-full mx-auto container p-4 z-10">
         <div className="grid grid-cols-12 place-content-center items-center w-full gap-4">
-          <div className="col-span-7 grid grid-cols-3 gap-2 ">
+          <div className="md:order-1 order-2 md:col-span-7 col-span-12 grid grid-cols-3 gap-2 ">
             <motion.div
               initial={{ opacity: 0, y: 100 }}
               viewport={{ once: true, amount: 0.3 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
+              className="col-span-3 md:col-span-1"
             >
               <CardCurse
                 description="Clases interactivas en tiempo real, donde podrás resolver dudas al instante."
@@ -36,6 +37,7 @@ export const CurseSection = () => {
               viewport={{ once: true, amount: 0.3 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 1 }}
+              className="col-span-3 md:col-span-1"
             >
               <CardCurse
                 description="Formación práctica y adaptada directamente en tu lugar de trabajo."
@@ -48,6 +50,7 @@ export const CurseSection = () => {
               viewport={{ once: true, amount: 0.3 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 1.5 }}
+              className="col-span-3 md:col-span-1"  
             >
               <CardCurse
                 description="Avanza según tu disponibilidad y estilo de aprendizaje, sin presiones."
@@ -56,7 +59,7 @@ export const CurseSection = () => {
               />
             </motion.div>
           </div>
-          <div className="col-span-5  flex flex-col justify-end items-center w-full">
+          <div className="md:order-2 order-1  md:col-span-5 col-span-12 flex flex-col justify-end items-center w-full">
             <div className="size-full max-w-lg flex flex-col items-center justify-center overflow-hidden pt-8">
               <BoxReveal boxColor={"#167FA6"} duration={0.5}>
                 <p className="text-[3.5rem] font-semibold text-center">

@@ -9,7 +9,7 @@ interface CardCurseProps {
 const CardCurse = ({title, description, img}: CardCurseProps) => {
   return (
     <>
-      <div className="bg-white backdrop-blur-2xl border-primary border-2 h-80 w-full col-span-1 rounded-2xl p-4 gap-3 flex flex-col">
+      <div className="bg-white backdrop-blur-2xl border-primary border-2 h-80 w-full md:col-span-1 col-span-3 rounded-2xl p-4 gap-3 flex flex-col">
         <div className="w-full flex flex-col ">
           <img src={`img/${img}`} alt="logo_curso" className="h-12 w-12" />
         </div>
