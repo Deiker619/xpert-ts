@@ -6,7 +6,9 @@ import { Ruta } from "../interfaces/Ruta";
 import { Suspense, useEffect } from "react";
 import { Toaster } from "@/components/ui/sonner";
 import { SkeletonCard } from "@/components/Skeleton/SkeletonCard";
-import { toast } from "sonner";
+import { useCookieContext } from "@/context/cookiesContext";
+
+
 const pages: Ruta[] = [
   {
     name: "Home",
@@ -24,29 +26,19 @@ const pages: Ruta[] = [
     state: false,
   },
   {
-    name: "Contactenos",
+    name: "Contáctanos",
     url: "/contact",
     state: false,
   },
 ];
 export const Menu = () => {
+  const { getCookies, LoadModalCookie } = useCookieContext()
   useEffect(() => {
-    toast("Preferencias de cookies", {
-      duration: Infinity,
-      icon: "🚀",
-      dismissible: false,  
-      description:
-        "Utilizamos cookies para brindarte la mejor experiencia posible y analizar el uso del sitio.",
-      action: {
-        label: "De acuerdo",
-        onClick: () => console.log("Action!"),
-      },
-    });
+    if (!getCookies()) LoadModalCookie();
   });
   return (
     <>
       <Nav Rutas={pages}></Nav>
-
       <main className="mt-20">
         <Suspense fallback={<SkeletonCard></SkeletonCard>}>
           <Outlet />

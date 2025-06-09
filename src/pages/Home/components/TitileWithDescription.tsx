@@ -11,7 +11,7 @@ const TitileWithDescription = () => {
             </TextAnimate>
           
         </div>
-        <div className="flex flex-col w-200">
+        <div className="flex flex-col md:w-200 w-full">
           <p className="text-lg">
             Ofrecemos una variedad de modalidades para que aprendas de la manera
             que mejor se adapte a tus necesidades y ritmo:

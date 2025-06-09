@@ -1,6 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom"
+import { CookiesProvider } from "./context/cookiesContext";
 import React from 'react';
-const  Services = React.lazy(()=> import("./pages/Services/Services"));
+const Services = React.lazy(() => import("./pages/Services/Services"));
 
 const Home = React.lazy(() => import('./pages/Home/Home'));
 const Menu = React.lazy(() => import('./layouts/Menu'));
@@ -13,7 +14,8 @@ function App() {
   return (
     <>
       <BrowserRouter>
-      
+
+        <CookiesProvider>
           <Routes>
             <Route path="/" element={<Menu />}>
               <Route index element={<Home></Home>} />
@@ -22,6 +24,7 @@ function App() {
               <Route path="/services" element={<Services></Services>} />
             </Route>
           </Routes>
+        </CookiesProvider>
 
 
       </BrowserRouter>
