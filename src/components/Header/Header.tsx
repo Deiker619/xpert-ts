@@ -14,24 +14,14 @@ export const Header = ({ titleHeader, descriptionHeader, bgHeader }: headerProps
         <section
           id="background_header"
           style={{ backgroundImage: bgHeader }}
-          className="bg-center relative rounded-2xl bg-no-repeat bg-cover bg-blend-multiply h-[460px]"
+          className="bg-center relative rounded-2xl bg-no-repeat bg-cover bg-blend-multiply h-120 md:h-[460px]"
         >
           <div className="absolute top-0 rounded-2xl left-0 w-full h-full z-1 bg-gradient-to-r to-primary from-secondary opacity-50"></div>
           {/* <!-- Contenedor inferior derecha --> */}
           
 
           <div className="px-4 z-2 mx-auto max-w-screen-xl text-center py-32 lg:pt-40 relative overflow-hidden">
-            {/* <a
-              href="#"
-              className="inline-flex justify-between items-center py-1 px-1 pe-4  text-sm text-white backdrop-blur-2xl  rounded-full "
-            >
-              <span className="text-xs bg-primary rounded-full text-white px-4 py-1.5 me-3">
-                New
-              </span>{" "}
-              <span className="text-sm font-medium ">
-                <i>{messageHeader}</i>
-              </span>
-            </a> */}
+            
             <div className="mb-2">
               <h1
                 id="title_header"
