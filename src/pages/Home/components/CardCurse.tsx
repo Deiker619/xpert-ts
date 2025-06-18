@@ -9,7 +9,7 @@ interface CardCurseProps {
 const CardCurse = ({title, description, img}: CardCurseProps) => {
   return (
     <>
-      <div className="bg-white backdrop-blur-2xl border-primary border-2 h-80 w-full md:col-span-1 col-span-3 rounded-2xl p-4 gap-3 flex flex-col">
+      <div className="bg-white backdrop-blur-2xl dark:bg-gray-900 border-primary border-2 h-80 w-full md:col-span-1 col-span-3 rounded-2xl p-4 gap-3 flex flex-col">
         <div className="w-full flex flex-col ">
           <img src={`img/${img}`} alt="logo_curso" className="h-12 w-12" />
         </div>
@@ -23,7 +23,7 @@ const CardCurse = ({title, description, img}: CardCurseProps) => {
           </p>
         </div>
         <div className="w-full flex justify-start">
-          <InteractiveHoverButton className="   ">Solicitar</InteractiveHoverButton>
+          <InteractiveHoverButton className="">Solicitar</InteractiveHoverButton>
         </div>
       </div>
     </>

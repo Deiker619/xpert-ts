@@ -4,9 +4,9 @@ const TitileWithDescription = () => {
   return (
     <>
       <div className="w-full flex flex-col ml-5">
-        <div className="flex flex-col justify-start">
+        <div className="flex flex-col justify-start mb-4">
           
-            <TextAnimate className="text-3xl" animation="slideLeft" by="character">
+            <TextAnimate className="md:text-3xl text-2xl" animation="slideLeft" by="character">
               Modalidades de Cursos
             </TextAnimate>
           

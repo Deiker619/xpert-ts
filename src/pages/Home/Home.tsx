@@ -9,7 +9,6 @@ import { ServiceSection } from "./components/servicesSection";
 
 
 const Home = () => {
-  
   return (
     <>
       <Header
