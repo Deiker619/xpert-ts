@@ -8,7 +8,7 @@ export const Nav = ({ Rutas }: { Rutas: Ruta[] }) => {
   useEffect(() => {}, [Rutas]);
   const { theme, changeTheme } = useThemeContext();
   return (
-    <nav className="bg-white/30 backdrop-blur-lg dark:bg-gray-900 fixed w-full z-20 top-0 start-0">
+    <nav className="bg-white/30 backdrop-blur-lg dark:bg-gray-900 fixed w-full z-12 top-0 start-0">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <Link
           to={""}

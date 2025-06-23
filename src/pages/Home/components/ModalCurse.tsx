@@ -12,7 +12,7 @@ export const ModalCurse = ({ isOpen, onClose }: ModalCurseProps) => {
     <AnimatePresence mode="wait">
       {isOpen && (
         <motion.div
-          className="fixed  z-2 inset-0 max-h-[100vh] h-full w-full overflow-hidden top-4 right-4  text-black  rounded-lg"
+          className="fixed  z-14 inset-0 max-h-[100vh] h-full w-full overflow-auto top-4 right-4  text-black  rounded-lg"
           initial={{ opacity: 0 }}
           key="modal-overlay"
           animate={{ opacity: 1 }}
@@ -20,14 +20,14 @@ export const ModalCurse = ({ isOpen, onClose }: ModalCurseProps) => {
           onClick={onClose}
         >
           <motion.div
-            className="bg-white/3 relative w-full z-50 h-full  flex flex-col justify-center items-center"
+            className="bg-white/3 relative h-full w-full z-13  overflow-visible   flex flex-col justify-center items-center"
             initial={{ opacity: 0, y: -100, scale: 0 }}
             animate={{ opacity: 1, y: 0, scale: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.2, ease: "easeInOut" }}
             onClick={(e) => e.stopPropagation()} // Evita que el click interior cierre el modal
           >
-            <div className="relative overflow-hidden bg-white rounded-2xl p-4 w-[90%] h-150  border flex flex-col">
+            <div className="relative overflow-auto z-50 bg-white rounded-2xl  w-[90%] h-[80%] top-1 border flex flex-col">
               <div className="w-full">
                 <button
                   className="absolute w-10 h-10 top-2 left-3 size-16  rounded-2xl flex flex-col justify-center items-center hover:bg-gray-100"
