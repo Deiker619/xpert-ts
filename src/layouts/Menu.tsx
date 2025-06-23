@@ -30,6 +30,11 @@ const pages: Ruta[] = [
     url: "/contact",
     state: false,
   },
+  {
+    name: "Educación",
+    url: "/education",
+    state: false,
+  },
 ];
 export const Menu = () => {
   const { getCookies, LoadModalCookie } = useCookieContext()
