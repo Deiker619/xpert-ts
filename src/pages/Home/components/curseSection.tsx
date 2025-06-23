@@ -62,15 +62,15 @@ export const CurseSection = () => {
           <div className="md:order-2 order-1  md:col-span-5 col-span-12 flex flex-col justify-end items-center w-full">
             <div className="size-full max-w-lg flex flex-col items-center justify-center overflow-hidden pt-8">
               <BoxReveal boxColor={"#167FA6"} duration={0.5}>
-                <p className="text-[3.5rem] font-semibold text-center">
-                  Inscribete<span className="text-primary">.</span>
+                <p className="text-[2.4rem] font-semibold text-center">
+                  Descarga del Catálogo<span className="text-primary">.</span>
                 </p>
               </BoxReveal>
 
               <BoxReveal boxColor={"#167FA6"} duration={0.5}>
 
                 <Modal
-                  elementTrigger={<RainbowButton variant="default" className="w-50">Descargar el catálogo</RainbowButton>}
+                  elementTrigger={<RainbowButton variant="default" className="w-50">Descargar</RainbowButton>}
                   titleModal="descripcion"
                 >
 

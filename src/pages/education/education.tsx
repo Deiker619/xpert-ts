@@ -1,5 +1,5 @@
 import { Header } from "@/components/Header/Header";
-import React from "react";
+
 
 export const Education = () => {
   return (
