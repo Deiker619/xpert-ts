@@ -1,5 +1,8 @@
-import { InstagramLogoIcon, LinkedInLogoIcon, TwitterLogoIcon } from "@radix-ui/react-icons";
-
+import {
+  InstagramLogoIcon,
+  LinkedInLogoIcon,
+  TwitterLogoIcon,
+} from "@radix-ui/react-icons";
 
 export const Footer = () => {
   return (
@@ -48,11 +51,15 @@ export const Footer = () => {
               </ul>
             </div>
 
-            <div className="col-span-1">
-              <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase"></h2>
+            <div className="col-span-1 flex flex-col gap-2">
               <p className="w-full text-white opacity-40 font-xs hover:text-white hover:opacity-100">
-                Av. Rómulo Gallegos, Ed. Pascal Caracas - Venezuela
-                info@bytescreativos.net +58 (0424) 188.5393
+                Barrio Prosperidad, Chamartín, Madrid, 28002.
+              </p>
+              <p className="w-full text-white opacity-40 font-xs hover:text-white hover:opacity-100">
+                Correo Electrónico: Info@bytescxpert.com
+              </p>
+              <p className="w-full text-white opacity-40 font-xs hover:text-white hover:opacity-100">
+                Teléfono: +34-655-62-30-40.
               </p>
             </div>
           </div>

@@ -16,7 +16,7 @@ export const CurseSection = () => {
         <TitileWithDescription></TitileWithDescription>
       </div>
 
-      <div className="flex justify-center items-center w-full mx-auto container p-4 z-10">
+      <div className="flex justify-center items-center w-full mx-auto container p-4 ">
         <div className="grid grid-cols-12 place-content-center items-center w-full gap-4">
           <div className="md:order-1 order-2 md:col-span-7 col-span-12 grid grid-cols-3 gap-2 ">
             <motion.div
@@ -62,19 +62,19 @@ export const CurseSection = () => {
           <div className="md:order-2 order-1  md:col-span-5 col-span-12 flex flex-col justify-end items-center w-full">
             <div className="size-full max-w-lg flex flex-col items-center justify-center overflow-hidden pt-8">
               <BoxReveal boxColor={"#167FA6"} duration={0.5}>
-                <p className="text-[3.5rem] font-semibold text-center">
-                  Inscribete<span className="text-primary">.</span>
+                <p className="text-[2.4rem] font-semibold text-center">
+                  Descarga del Catálogo<span className="text-primary">.</span>
                 </p>
               </BoxReveal>
 
               <BoxReveal boxColor={"#167FA6"} duration={0.5}>
 
                 <Modal
-                  elementTrigger={<RainbowButton variant="default" className="w-50">Inscribete</RainbowButton>}
+                  elementTrigger={<RainbowButton variant="default" className="w-50">Descargar</RainbowButton>}
                   titleModal="descripcion"
                 >
 
-                  <p>Prueba</p>
+                  Modal prueba
                 </Modal>
               </BoxReveal>
             </div>

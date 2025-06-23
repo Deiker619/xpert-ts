@@ -1,20 +1,47 @@
 import { useEffect } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { Ruta } from "../../interfaces/Ruta";
+import { useThemeContext } from "@/hooks/useTheme";
+import { AnimatePresence, motion } from "motion/react";
 
 export const Nav = ({ Rutas }: { Rutas: Ruta[] }) => {
   useEffect(() => {}, [Rutas]);
+  const { theme, changeTheme } = useThemeContext();
   return (
     <nav className="bg-white/30 backdrop-blur-lg dark:bg-gray-900 fixed w-full z-20 top-0 start-0">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <Link
-          to={''}
+          to={""}
           className="flex items-center space-x-3 rtl:space-x-reverse"
         >
-          <img src="img/logo.png" className="h-10 w-auto object-cover" alt="Flowbite Logo" />
+          <img
+            src="img/logo.png"
+            className="h-10 w-auto object-cover"
+            alt="Flowbite Logo"
+          />
         </Link>
+
         <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-          
+          <div className="flex justify-center items-center">
+            <button onClick={changeTheme}>
+            <AnimatePresence mode="wait">
+              {theme && (
+                <motion.span
+                  key={theme.theme} // clave para detectar cambios
+                  initial={{ opacity: 0, y: -10 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: 10 }}
+                  transition={{ duration: 0.1 }}
+                  style={{ display: "inline-block" }}
+                >
+                  {theme.icon}
+                </motion.span>
+              )}
+            </AnimatePresence>
+
+            </button>
+    
+          </div>
           <button
             data-collapse-toggle="navbar-sticky"
             type="button"
@@ -35,8 +62,9 @@ export const Nav = ({ Rutas }: { Rutas: Ruta[] }) => {
               <li key={ruta.url}>
                 <NavLink
                   to={ruta.url}
-                  
-                  className={ ({ isActive }) => isActive ? "text-blue-500" : "hover:text-blue-500"}
+                  className={({ isActive }) =>
+                    isActive ? "text-blue-500" : "hover:text-blue-500"
+                  }
                 >
                   {ruta.name}
                 </NavLink>
