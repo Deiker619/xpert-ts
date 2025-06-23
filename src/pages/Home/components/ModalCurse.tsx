@@ -27,7 +27,7 @@ export const ModalCurse = ({ isOpen, onClose }: ModalCurseProps) => {
             transition={{ duration: 0.2, ease: "easeInOut" }}
             onClick={(e) => e.stopPropagation()} // Evita que el click interior cierre el modal
           >
-            <div className="relative overflow-auto z-50 bg-white rounded-2xl  w-[90%] h-[80%] top-12 border flex flex-col">
+            <div className="relative overflow-auto z-50 bg-white rounded-2xl  w-[90%] h-[80%] top-1 border flex flex-col">
               <div className="w-full">
                 <button
                   className="absolute w-10 h-10 top-2 left-3 size-16  rounded-2xl flex flex-col justify-center items-center hover:bg-gray-100"
