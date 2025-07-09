@@ -10,7 +10,7 @@ export const Valores = () => {
         viewport={{ once: true }}
         className="pointer-events-none z-10 whitespace-pre-wrap text-center text-8xl font-semibold leading-none text-transparent bg-clip-text bg-gradient-to-r to-thirty  from-thirty"
       >
-        Valores
+       
       </motion.span>
       <div className="flex flex-col justify-center items-center  w-full h-full gap-4 ">
         <div className="grid grid-cols-4 w-full p-4 gap-4">

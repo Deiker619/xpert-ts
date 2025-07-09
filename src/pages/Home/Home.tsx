@@ -12,9 +12,9 @@ const Home = () => {
   return (
     <>
       <Header
-        bgHeader={"url('img/bg.jpg')"}
+        bgHeader={"url('img/home/team.jpg')"}
         titleHeader="Conviertete en tu Mejor Versión"
-        descriptionHeader="Sé un Xpert"
+        descriptionHeader="Impulsamos la digitalización como motor de cambio."
         messageHeader="Innovación que conecta, formación que transforma"
       ></Header>
       <section className="h-[600px] flex flex-col mt-4">
@@ -40,12 +40,12 @@ const Home = () => {
             </div>
 
             <div className="hidden md:block absolute h-auto w-auto left-10  z-1">
-              <p className="pointer-events-none z-10 whitespace-pre-wrap text-center text-8xl font-semibold leading-none text-transparent bg-clip-text bg-gradient-to-r from-thirty ">
+              <p className="pointer-events-none z-10 whitespace-pre-wrap text-center text-8xl font-semibold leading-none text-transparent bg-clip-text bg-gradient-to-r from-thirty dark:from-white">
                 BYTES
               </p>
             </div>
             <div className="hidden md:block absolute h-auto w-auto right-10  z-1">
-              <p className="pointer-events-none z-10 whitespace-pre-wrap text-center text-8xl font-semibold leading-none text-transparent bg-clip-text bg-gradient-to-r to-[#02196b]">
+              <p className="pointer-events-none z-10 whitespace-pre-wrap text-center text-8xl font-semibold leading-none text-transparent bg-clip-text bg-gradient-to-r to-[#02196b] dark:to-white">
                 XPERT
               </p>
             </div>
