@@ -8,14 +8,14 @@ export const Nav = ({ Rutas }: { Rutas: Ruta[] }) => {
   useEffect(() => {}, [Rutas]);
   const { theme, changeTheme } = useThemeContext();
   return (
-    <nav className="bg-white/30 backdrop-blur-lg dark:bg-gray-900 fixed w-full z-12 top-0 start-0">
+    <nav className="bg-[#1c247c] backdrop-blur-lg dark:bg-gray-900 fixed w-full z-12 top-0 start-0">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <Link
           to={""}
           className="flex items-center space-x-3 rtl:space-x-reverse"
         >
           <img
-            src="img/logo.png"
+            src="img/xpert_logo.png"
             className="h-10 w-auto object-cover"
             alt="Flowbite Logo"
           />
@@ -57,7 +57,7 @@ export const Nav = ({ Rutas }: { Rutas: Ruta[] }) => {
           className="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
           id="navbar-sticky"
         >
-          <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+          <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium border text-white border-gray-100 rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
             {Rutas.map((ruta) => (
               <li key={ruta.url}>
                 <NavLink

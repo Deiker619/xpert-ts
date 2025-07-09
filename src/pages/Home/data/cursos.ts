@@ -5,7 +5,7 @@ import { ComputerIcon, LayersIcon, Table2Icon } from "lucide-react";
 export const cursos: cursoType[] = [
   {
     name: "Metodologías Ágiles",
-    image: "img/home/empresarial.jpg",
+    image: "",
     icon: LayersIcon,
     colorTextTitle: "bg-blue/30 backdrop-blur-lg rounded-lg",
     colorTextDescription: "",
@@ -14,7 +14,7 @@ export const cursos: cursoType[] = [
   },
   {
     name: "Blockchain",
-    image: "img/home/blockchain.jpg",
+    image: "",
     icon: GlobeIcon,
     colorTextTitle: "text-yellow-400 bg-blue/30 backdrop-blur-lg rounded-lg",
     colorTextDescription: "text-white",
@@ -32,7 +32,7 @@ export const cursos: cursoType[] = [
   },
   {
     name: "Idiomas",
-    image: "img/home/idiomas.jpg",
+    image: "",
     icon: SpeakerQuietIcon,
     colorTextTitle: "bg-blue/30 backdrop-blur-lg rounded-lg",
     colorTextDescription: "text-white",
@@ -51,7 +51,7 @@ export const cursos: cursoType[] = [
   },
   {
     name: "Soft Skills",
-    image: "img/home/soft_min.jpg",
+    image: "",
     icon: GlobeIcon,
     colorTextTitle: "text-yellow-400 bg-blue/30 backdrop-blur-lg rounded-lg",
     colorTextDescription: "text-white",
@@ -69,7 +69,7 @@ export const cursos: cursoType[] = [
   },
   {
     name: "Ciberseguridad",
-    image: "img/home/seguridad_min.jpg",
+    image: "",
     icon: Component2Icon,
     colorTextTitle:
       "text-[#58bcc7] bg-cyan/30 backdrop-blur-lg rounded-lg font-extrabold",

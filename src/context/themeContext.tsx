@@ -19,7 +19,7 @@ export const ThemeProvider = ({ children }: { children: React.ReactNode }) => {
       return { theme: "dark", icon: <Moon /> };
     }
     // default light
-    return { theme: "light", icon: <Sun /> };
+    return { theme: "light", icon: <Sun color="white" /> };
   };
   const [theme, setTheme] = useState<ThemeState>(getInitialTheme);
   // Cada vez que cambia el tema, actualizar localStorage y <html> class
@@ -41,7 +41,7 @@ export const ThemeProvider = ({ children }: { children: React.ReactNode }) => {
     setTheme((prev) =>
       prev.theme === "light"
         ? { theme: "dark", icon: <Moon /> }
-        : { theme: "light", icon: <Sun /> }
+        : { theme: "light", icon: <Sun color="white" /> }
     );
   };
 

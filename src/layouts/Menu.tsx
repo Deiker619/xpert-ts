@@ -26,15 +26,15 @@ const pages: Ruta[] = [
     state: false,
   },
   {
-    name: "Contáctanos",
-    url: "/contact",
-    state: false,
-  },
-  {
     name: "Educación",
     url: "/education",
     state: false,
   },
+  {
+    name: "Contáctanos",
+    url: "/contact",
+    state: false,
+  }
 ];
 export const Menu = () => {
   const { getCookies, LoadModalCookie } = useCookieContext()
@@ -44,7 +44,7 @@ export const Menu = () => {
   return (
     <>
       <Nav Rutas={pages}></Nav>
-      <main className="mt-20">
+      <main className="mt-17">
         <Suspense fallback={<SkeletonCard></SkeletonCard>}>
           <Outlet />
         </Suspense>
