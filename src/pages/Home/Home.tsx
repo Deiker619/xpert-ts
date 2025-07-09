@@ -50,7 +50,7 @@ const Home = () => {
               </p>
             </div>
 
-            <div className="absolute w-52 h-52 bg-blue-300 blur-[120px] -inset-y-50 -left-20 z-1"></div>
+            <div className="absolute w-52 h-52 bg-blue-300 dark:bg-primary blur-[200px] -inset-y-50 -left-20 z-1"></div>
 
             <img
               src="img/algo1.png"

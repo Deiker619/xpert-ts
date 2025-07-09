@@ -10,7 +10,7 @@ interface headerProps {
 export const Header = ({ titleHeader, descriptionHeader, bgHeader }: headerProps) => {
   return (
     <>
-      <div className="bg-white mr-3 ml-3 md:mr-6 md:ml-6 mb-6 rounded-2xl border-gray-400 overflow-hidden p-2">
+      <div className="bg-white mr-3 ml-3 md:mr-6 md:ml-6 mb-6 rounded-2xl  overflow-hidden ">
         <section
           id="background_header"
           style={{ backgroundImage: bgHeader }}

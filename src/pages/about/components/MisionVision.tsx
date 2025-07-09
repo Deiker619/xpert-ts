@@ -42,7 +42,7 @@ export const MisionVision = () => {
                   </p>
                 </div>
               </div>
-              <img src="img/home/logoazuprueba.png" className="absolute inset-y-0 -left-80  h-full opacity-40" alt="algo"  />
+              {/* <img src="img/home/logoazuprueba.png" className="absolute inset-y-0 -left-80  h-full opacity-40" alt="algo"  /> */}
 
             </div>
             
@@ -81,8 +81,8 @@ export const MisionVision = () => {
                   </p>
                 </div>
               </div>
-              <img src="img/home/logonaranjaprueba.png" className="absolute inset-y-0 -right-80  h-full opacity-40" alt="algo"  />
-
+{/*               <img src="img/home/logonaranjaprueba.png" className="absolute inset-y-0 -right-80  h-full opacity-40" alt="algo"  />
+ */}
             </div>
           </div>
         </div>
