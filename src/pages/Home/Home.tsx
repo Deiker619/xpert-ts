@@ -1,6 +1,5 @@
 import { Header } from "../../components/Header/Header";
 import { CompanyHighlights } from "./components/CompanyHighlights";
-import { TextAnimate } from "@/components/magicui/text-animate";
 import { BlurFade } from "@/components/magicui/blur-fade";
 import { CurseSection } from "./components/curseSection";
 import { Ripple } from "@/components/magicui/ripple";
@@ -17,16 +16,10 @@ const Home = () => {
         descriptionHeader="Impulsamos la digitalización como motor de cambio."
         messageHeader="Innovación que conecta, formación que transforma"
       ></Header>
-      <section className="h-[600px] flex flex-col mt-4">
+      <section className="h-[400px] flex flex-col mt-4">
         {/* <!-- Title --> */}
         <div className="flex flex-col justify-center items-center">
-          <div className="flex flex-col justify-center items-center gap-4 mb-4 h-40">
-            <h2 className=" text-3xl text-center italic text-gray-900 md:text-5xl lg:text-xl md:text-start dark:text-white">
-              <TextAnimate animation="blurIn">
-                "Innovación que conecta, formación que transforma"
-              </TextAnimate>
-            </h2>
-          </div>
+          
         </div>
         <BlurFade delay={0.25} inView>
           <div className="w-full flex justify-center items-center overflow-x-visible relative ">

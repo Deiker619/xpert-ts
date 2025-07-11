@@ -17,7 +17,7 @@ export const Header = ({ titleHeader, descriptionHeader, bgHeader }: headerProps
         <section
           id="background_header"
           style={{ backgroundImage: bgHeader }}
-          className="bg-center relative  bg-no-repeat bg-cover bg-blend-multiply h-120 md:h-[460px]"
+          className="relative  bg-no-repeat bg-cover bg-blend-multiply h-120 md:h-[460px]"
         >
           <div className="absolute top-0  left-0 w-full h-full z-1 bg-gradient-to-r  from-secondary opacity-50"></div>
           {/* <!-- Contenedor inferior derecha --> */}

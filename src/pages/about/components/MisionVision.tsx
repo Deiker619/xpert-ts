@@ -37,7 +37,33 @@ export const MisionVision = () => {
             </div>
 
           </div>
-          
+
+        </div>
+        <div className="grid grid-cols-12 gap-3 h-full ml-6 mr-6 mt-10">
+          <div className="col-span-12 h-auto w-[90%]  mx-auto container  justify-center items-center bg-white rounded-2xl flex flex-col overflow-hidden relative">
+            <div className="border-t border-l border-b border-r-[0] w-full h-auto  place-items-center">
+              <div className=" grid w-full grid-cols-2 p-4 place-items-center">
+                <div className="flex flex-col col-span-1  w-90">
+                  <p className="flex flex-col text-lg justify-center items-center  ">
+                    Mision
+                  </p>
+                  <p className="text-sm  text-balance text-gray-500">
+                    Empoderamos a profesionales y empresas a través de una formación accesible, innovadora y de alta calidad, alineada con las demandas del mercado global. Mediante cursos, talleres y asesoría especializada en tecnología y metodologías ágiles, facilitamos el desarrollo de habilidades clave para la transformación digital. Nos enfocamos en la formación práctica y aplicable, fomentando el aprendizaje continuo y el crecimiento sostenible de personas y organizaciones en el mundo hispanohablante y más allá
+                  </p>
+                </div>
+                <div className="flex flex-col col-span-1  w-80 justify-center items-center">
+                  <p>Vision</p>
+                  <p className="text-sm  text-balance text-gray-500">
+                    Empoderamos a profesionales y empresas a través de una formación accesible, innovadora y de alta calidad, alineada con las demandas del mercado global. Mediante cursos, talleres y asesoría especializada en tecnología y metodologías ágiles, facilitamos el desarrollo de habilidades clave para la transformación digital. Nos enfocamos en la formación práctica y aplicable, fomentando el aprendizaje continuo y el crecimiento sostenible de personas y organizaciones en el mundo hispanohablante y más allá
+                  </p>
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
         </div>
       </section>
     </>
