@@ -45,14 +45,14 @@ export const MisionVision = () => {
               <div className=" grid w-full grid-cols-2 p-4 place-items-center">
                 <div className="flex flex-col col-span-1  w-90">
                   <p className="flex flex-col text-lg justify-center items-center  ">
-                    Mision
+                    Misión
                   </p>
                   <p className="text-sm  text-balance text-gray-500">
                     Empoderamos a profesionales y empresas a través de una formación accesible, innovadora y de alta calidad, alineada con las demandas del mercado global. Mediante cursos, talleres y asesoría especializada en tecnología y metodologías ágiles, facilitamos el desarrollo de habilidades clave para la transformación digital. Nos enfocamos en la formación práctica y aplicable, fomentando el aprendizaje continuo y el crecimiento sostenible de personas y organizaciones en el mundo hispanohablante y más allá
                   </p>
                 </div>
                 <div className="flex flex-col col-span-1  w-80 justify-center items-center">
-                  <p>Vision</p>
+                  <p>Visión</p>
                   <p className="text-sm  text-balance text-gray-500">
                     Empoderamos a profesionales y empresas a través de una formación accesible, innovadora y de alta calidad, alineada con las demandas del mercado global. Mediante cursos, talleres y asesoría especializada en tecnología y metodologías ágiles, facilitamos el desarrollo de habilidades clave para la transformación digital. Nos enfocamos en la formación práctica y aplicable, fomentando el aprendizaje continuo y el crecimiento sostenible de personas y organizaciones en el mundo hispanohablante y más allá
                   </p>
