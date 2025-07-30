@@ -6,13 +6,14 @@ import { useEffect, useState } from "react";
 import { cursoType } from "@/interfaces/Curso";
 import { DataOfCurse } from "./dataOfCurse"; */
 import { ModalCurse } from "./ModalCurse";
+import { cursoType } from "@/interfaces/Curso";
 
 export const ServiceSection = () => {
- /*  const [selectedCurso, setSelectedCurso] = useState<cursoType | null>(null); */
+  const [selectedCurso, setSelectedCurso] = useState<cursoType | null>(null);
   const [showModal, setShowModal] = useState(false);
   useEffect(() => {
-    console.log(showModal);
-  }, [showModal]);
+    console.log(showModal, selectedCurso);
+  }, [showModal, selectedCurso]);
   return (
     <>
       
@@ -41,9 +42,9 @@ export const ServiceSection = () => {
                   description={""}
                   href={""}
                   cta={curso.cta}
-                  onClick={() => setShowModal(true)}
+                  onClick={() => { setSelectedCurso(curso); setShowModal(true) } }
                 ></BentoCard>
-                <ModalCurse isOpen={showModal} onClose={() => setShowModal(false)} />
+                <ModalCurse isOpen={showModal} onCurseSelected={selectedCurso} onClose={() => setShowModal(false)} />
               </div>
             ))}
           </div>
