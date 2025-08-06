@@ -10,6 +10,7 @@ import { ServiceSection } from "./components/servicesSection";
 const Home = () => {
   return (
     <>
+    
       <Header
         bgHeader={"url('img/home/team.jpg')"}
         titleHeader="Conviertete en tu Mejor Versión"

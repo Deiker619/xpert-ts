@@ -6,9 +6,9 @@ const Services = () => {
     <>
       <Header
         bgHeader={"url('img/about/bgabout.jpg')"}
-        titleHeader={"Pagina de Servicios"}
-        descriptionHeader={""}
-        messageHeader={"Innovación que conecta, formación que transforma"}
+        titleHeader={"Con los Servicios de Bytes Xperts"}
+        descriptionHeader={"Convierte ideas en soluciones que enseñan, conectan y hacen crecer tu empresa"}
+        messageHeader={"Con los Servicios de Bytes Xperts"}
       ></Header>
 
       <section className="justify-center items-center flex flex-col my-4">
