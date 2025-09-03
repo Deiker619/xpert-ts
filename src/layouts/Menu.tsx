@@ -2,40 +2,14 @@
 import { Outlet } from "react-router-dom";
 import { Nav } from "../components/nav/nav";
 import { Footer } from "../components/Footer/Footer";
-import { Ruta } from "../interfaces/Ruta";
+import { pages } from "@/components/routes/Rutas"; 
 import { Suspense, useEffect } from "react";
 import { Toaster } from "@/components/ui/sonner";
 import { SkeletonCard } from "@/components/Skeleton/SkeletonCard";
 import { useCookieContext } from "@/context/cookiesContext";
 
 
-const pages: Ruta[] = [
-  {
-    name: "Home",
-    url: "/",
-    state: false,
-  },
-  {
-    name: "Quienes somos",
-    url: "/about",
-    state: false,
-  },
-  {
-    name: "Servicios",
-    url: "/services",
-    state: false,
-  },
-  {
-    name: "Educación",
-    url: "/education",
-    state: false,
-  },
-  {
-    name: "Contáctanos",
-    url: "/contact",
-    state: false,
-  }
-];
+
 export const Menu = () => {
   const { getCookies, LoadModalCookie } = useCookieContext()
   useEffect(() => {

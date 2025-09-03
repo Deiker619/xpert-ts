@@ -3,6 +3,7 @@ import { Link, NavLink } from "react-router-dom";
 import { Ruta } from "../../interfaces/Ruta";
 import { useThemeContext } from "@/hooks/useTheme";
 import { AnimatePresence, motion } from "motion/react";
+import { MenuMobile } from "./MenuMobile";
 
 export const Nav = ({ Rutas }: { Rutas: Ruta[] }) => {
   useEffect(() => {}, [Rutas]);
@@ -32,6 +33,7 @@ export const Nav = ({ Rutas }: { Rutas: Ruta[] }) => {
                   animate={{ opacity: 1, y: 0 }}
                   exit={{ opacity: 0, y: 10 }}
                   transition={{ duration: 0.1 }}
+                  
                   style={{ display: "inline-block" }}
                 >
                   {theme.icon}
@@ -42,16 +44,12 @@ export const Nav = ({ Rutas }: { Rutas: Ruta[] }) => {
             </button>
     
           </div>
-          <button
-            data-collapse-toggle="navbar-sticky"
-            type="button"
+          <div
             className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
-            aria-controls="navbar-sticky"
-            aria-expanded="false"
+
           >
-            <span className="sr-only">Open main menu</span>
-            open menu
-          </button>
+            <MenuMobile/>
+          </div>
         </div>
         <div
           className="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"

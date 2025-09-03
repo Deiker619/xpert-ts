@@ -37,7 +37,7 @@ const FormContact = ({ className }: FormContactProps) => {
               type="email"
               id="email"
               className="shadow-xs  border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-xs-light"
-              placeholder="name@flowbite.com"
+              placeholder="name@email.com"
               required
             />
           </div>
@@ -60,7 +60,7 @@ const FormContact = ({ className }: FormContactProps) => {
               htmlFor="subject"
               className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
             >
-              Asunto
+              Asúnto
             </label>
             <input
               type="text"
@@ -75,7 +75,7 @@ const FormContact = ({ className }: FormContactProps) => {
               htmlFor="message"
               className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
             >
-              Your message
+              Mensaje
             </label>
             <textarea
               id="message"
@@ -107,7 +107,7 @@ const FormContact = ({ className }: FormContactProps) => {
               type="submit"
               className="text-white bg-primary hover:bg-primary/90 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center "
             >
-              Register new account
+              Enviar
             </button>
           </div>
           

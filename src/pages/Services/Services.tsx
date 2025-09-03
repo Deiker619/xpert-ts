@@ -22,7 +22,7 @@ const Services = () => {
 
       <section className="w-full">
         <div className=" grid grid-cols-2 ml-6 mr-6  place-items-center place-content-center gap-4 p-3">
-          <div className="col-span-1 flex flex-col justify-center gap-4 mx-auto container w-[90%] h-full ">
+          <div className="md:col-span-1 col-span-2 flex flex-col justify-center gap-4 mx-auto container w-[90%] h-full ">
             <div className="flex flex-col justify-start items-start">
               <img
                 src="img/services/hardware.png"
@@ -44,7 +44,7 @@ const Services = () => {
               </p>
             </div>
           </div>
-          <div className="col-span-1 flex flex-col justify-center gap-4 mx-auto container w-[90%] h-full ">
+          <div className="md:col-span-1 col-span-2 flex flex-col justify-center gap-4 mx-auto container w-[90%] h-full ">
             <div className="flex flex-col justify-start items-start">
               <img
                 src="img/services/ambientes.png"
@@ -66,7 +66,7 @@ const Services = () => {
               </p>
             </div>
           </div>
-          <div className="col-span-1 flex flex-col justify-center gap-4 mx-auto container w-[90%] h-full ">
+          <div className="md:col-span-1 col-span-2 flex flex-col justify-center gap-4 mx-auto container w-[90%] h-full ">
             <div className="flex flex-col justify-start items-start">
               <img
                 src="img/services/bd.png"
@@ -88,7 +88,7 @@ const Services = () => {
               </p>
             </div>
           </div>
-          <div className="col-span-1 flex flex-col justify-center gap-4 mx-auto container w-[90%] h-full ">
+          <div className="md:col-span-1 col-span-2 flex flex-col justify-center gap-4 mx-auto container w-[90%] h-full ">
             <div className="flex flex-col justify-start items-start">
               <img
                 src="img/services/monitoreo.png"

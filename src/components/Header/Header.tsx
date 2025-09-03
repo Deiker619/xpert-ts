@@ -23,7 +23,7 @@ export const Header = ({ titleHeader, descriptionHeader, bgHeader }: headerProps
           {/* <!-- Contenedor inferior derecha --> */}
 
 
-          <div className="px-4 z-2  grid grid-cols-2  mx-auto  text-start py-28 lg:pt-15 relative overflow-hidden">
+          <div className="px-4 z-2  grid grid-cols-2  mx-auto  text-start py-12  lg:py-28 lg:pt-15 relative overflow-hidden">
 
 
             <div className="flex flex-col w-full  gap-3 p-3">
@@ -31,7 +31,7 @@ export const Header = ({ titleHeader, descriptionHeader, bgHeader }: headerProps
                 
                   <h1
                     id="title_header"
-                    className="text-2xl font-extralight tracking-tight leading-none text-primary md:text-2xl lg:text-lg flex flex-col"
+                    className="text-xl w-60 font-extralight tracking-tight leading-none text-primary md:text-2xl lg:text-lg flex flex-col"
                   >
                     {titleHeader}
                   </h1>
@@ -39,7 +39,7 @@ export const Header = ({ titleHeader, descriptionHeader, bgHeader }: headerProps
                 
                   <h2
                     id="subtitle_header"
-                    className="font-normal text-4xl tracking-tight leading-none text-white md:text-5xl lg:text-5xl flex flex-col"
+                    className="font-normal text-4xl w-80 md:w-auto tracking-tight leading-none text-white md:text-5xl lg:text-5xl flex flex-col"
                   >
                     {descriptionHeader}
                   </h2>

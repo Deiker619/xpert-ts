@@ -15,8 +15,8 @@ export const Valores = () => {
       <div className="flex flex-col justify-center items-center  w-full h-full gap-4 ">
         <div className="grid grid-cols-4 w-full p-4 gap-4">
           <div className="col-span-4 md:col-span-1 p-4 flex flex-col  w-full justify-center items-center ">
-            <div className="bg-white border border-primary rounded-2xl h-50 w-60 relative shadow-lg">
-              <div className="absolute bg-white  h-16 w-16  -top-4 left-[34%]   rounded-full">
+            <div className="bg-white dark:bg-[#0a0a0a] border border-primary rounded-2xl h-50 w-60 relative shadow-lg">
+              <div className="absolute bg-white dark:bg-[#0a0a0a]  h-16 w-16  -top-4 left-[34%]   rounded-full">
                 <img src="img/about/valores/etica.png" alt="" />
               </div>
 
@@ -34,8 +34,8 @@ export const Valores = () => {
             </div>
           </div>
           <div className="col-span-4 md:col-span-1 p-4 flex flex-col  w-full justify-center items-center ">
-            <div className="bg-white border border-primary rounded-2xl h-50 w-60 relative shadow-lg">
-              <div className="absolute bg-white  h-16 w-16 -top-4 left-[34%]   rounded-full">
+            <div className="bg-white dark:bg-[#0a0a0a]  border border-primary rounded-2xl h-50 w-60 relative shadow-lg">
+              <div className="absolute bg-white  dark:bg-[#0a0a0a] h-16 w-16 -top-4 left-[34%]   rounded-full">
                 <img
                   src="img/about/valores/excelencia.png"
                   className=""
@@ -56,8 +56,8 @@ export const Valores = () => {
             </div>
           </div>
           <div className="col-span-4 md:col-span-1 p-4 flex flex-col  w-full justify-center items-center ">
-            <div className="bg-white border border-primary rounded-2xl h-50 w-60 relative shadow-lg">
-              <div className="absolute bg-white  h-16 w-16 -top-4 left-[34%]   rounded-full">
+            <div className="bg-white dark:bg-[#0a0a0a]  border border-primary rounded-2xl h-50 w-60 relative shadow-lg">
+              <div className="absolute bg-white dark:bg-[#0a0a0a] h-16 w-16 -top-4 left-[34%]   rounded-full">
                 <img
                   src="img/about/valores/innovacion.png"
                   className="h-full w-full"
@@ -78,8 +78,8 @@ export const Valores = () => {
             </div>
           </div>
           <div className="col-span-4 md:col-span-1 p-4 flex flex-col  w-full justify-center items-center ">
-            <div className="bg-white border border-primary rounded-2xl h-50 w-60 relative shadow-lg">
-              <div className="absolute bg-white  h-16 w-16  -top-4 left-[34%] rounded-full">
+            <div className="bg-white dark:bg-[#0a0a0a]  border border-primary rounded-2xl h-50 w-60 relative shadow-lg">
+              <div className="absolute bg-white  dark:bg-[#0a0a0a] h-16 w-16  -top-4 left-[34%] rounded-full">
                 <img
                   src="img/about/valores/liderazgo.png"
                   className="h-full w-full"
