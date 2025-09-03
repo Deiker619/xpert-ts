@@ -6,7 +6,7 @@ import {
 
 export const Footer = () => {
   return (
-    <footer className="bg-[#202020]">
+    <footer className="bg-[#202020] dark:bg-black">
       <div className="w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div className="grid grid-cols-2">
           <div className="mb-6 md:mb-0 flex justify-center col-span-2 md:col-span-1">

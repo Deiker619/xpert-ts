@@ -4,8 +4,9 @@ import { ComputerIcon, LayersIcon, Table2Icon } from "lucide-react";
 
 export const cursos: cursoType[] = [
   {
+    id: 1,
     name: "Metodologías Ágiles",
-    image: "",
+    image: "img/home/empresarial.jpg",
     icon: LayersIcon,
     colorTextTitle: "bg-blue/30 backdrop-blur-lg rounded-lg",
     colorTextDescription: "",
@@ -13,8 +14,9 @@ export const cursos: cursoType[] = [
     cta: "Ver curso",
   },
   {
+    id: 2,
     name: "Blockchain",
-    image: "",
+    image: "img/home/blockchain.jpg",
     icon: GlobeIcon,
     colorTextTitle: "text-yellow-400 bg-blue/30 backdrop-blur-lg rounded-lg",
     colorTextDescription: "text-white",
@@ -22,6 +24,7 @@ export const cursos: cursoType[] = [
     cta: "Ver cursos",
   },
   {
+    id: 3,
     name: "Inteligencia Artificial",
     image: "img/home/inteligencia.jpg",
     icon: PersonIcon,
@@ -31,8 +34,9 @@ export const cursos: cursoType[] = [
     cta: "Ver cursos",
   },
   {
+    id: 4,
     name: "Idiomas",
-    image: "",
+    image: "img/home/formacion_min.jpg",
     icon: SpeakerQuietIcon,
     colorTextTitle: "bg-blue/30 backdrop-blur-lg rounded-lg",
     colorTextDescription: "text-white",
@@ -40,6 +44,7 @@ export const cursos: cursoType[] = [
     cta: "Ver cursos",
   },
   {
+    id: 5,
     name: "Desarrollo",
     image: "img/home/desarrollo_min.jpg",
     icon: LayersIcon,
@@ -50,8 +55,9 @@ export const cursos: cursoType[] = [
     cta: "Ver cursos",
   },
   {
+    id: 6,
     name: "Soft Skills",
-    image: "",
+    image: "img/home/soft_min.jpg",
     icon: GlobeIcon,
     colorTextTitle: "text-yellow-400 bg-blue/30 backdrop-blur-lg rounded-lg",
     colorTextDescription: "text-white",
@@ -59,6 +65,7 @@ export const cursos: cursoType[] = [
     cta: "Ver cursos",
   },
   {
+    id: 7,
     name: "Arquitectura",
     image: "img/home/contenedor_min.jpg",
     icon: PersonIcon,
@@ -68,8 +75,9 @@ export const cursos: cursoType[] = [
     cta: "Ver cursos",
   },
   {
+    id: 8,
     name: "Ciberseguridad",
-    image: "",
+    image: "img/home/seguridad_min.jpg",
     icon: Component2Icon,
     colorTextTitle:
       "text-[#58bcc7] bg-cyan/30 backdrop-blur-lg rounded-lg font-extrabold",
@@ -78,6 +86,7 @@ export const cursos: cursoType[] = [
     cta: "Ver cursos",
   },
   {
+    id:9,
     name: "IBM AS400",
     image: "img/home/ibm1.jpg",
     icon: ComputerIcon,
@@ -88,6 +97,7 @@ export const cursos: cursoType[] = [
     cta: "Ver cursos",
   },
   {
+    id:10,
     name: "Base de datos",
     image: "img/home/bd_min.jpg",
     icon: Table2Icon,
