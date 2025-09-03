@@ -88,7 +88,8 @@ export const ModalCurse = ({ isOpen, onClose, onCurseSelected }: ModalCurseProps
                             <div className="grid grid-cols-5 gap-3 p-3">
                               {/* Cursos */}
 
-                              <div className="col-span-5 bg-white border rounded-2xl  h-auto flex flex-col p-3">
+                              
+                              <div className="col-span-5 bg-white dark:bg-[#0a0a0a] border rounded-2xl  h-auto flex flex-col p-3">
 
                                 <div className=" flex-col h-full space-y-3 grid grid-cols-4 place-content-center-center">
 
@@ -99,7 +100,7 @@ export const ModalCurse = ({ isOpen, onClose, onCurseSelected }: ModalCurseProps
                                       </div>
                                       <div className="flex-1 w-full flex flex-col">
                                         <div className="w-full flex flex-col">
-                                          <p className="text-md">Titulo del curso</p>
+                                          <p className="text-md text-black dark:text-white">Titulo del curso</p>
 
                                         </div>
                                         <div className="w-full flex flex-col">
@@ -113,12 +114,12 @@ export const ModalCurse = ({ isOpen, onClose, onCurseSelected }: ModalCurseProps
                                   </div>
                                   <div className="md:col-span-1 col-span-4 flex justify-end items-center">
 
-                                    <Button className="bg-gray-900">Solicitar Curso</Button>
+                                    <Button className="bg-gray-900 dark:bg-blue-500">Solicitar Curso</Button>
                                   </div>
                                 </div>
 
                               </div>
-                              <div className="col-span-5 bg-white border rounded-2xl  h-auto flex flex-col p-3">
+                              <div className="col-span-5 bg-white dark:bg-[#0a0a0a] border rounded-2xl  h-auto flex flex-col p-3">
 
                                 <div className=" flex-col h-full space-y-3 grid grid-cols-4 place-content-center-center">
 
@@ -129,7 +130,7 @@ export const ModalCurse = ({ isOpen, onClose, onCurseSelected }: ModalCurseProps
                                       </div>
                                       <div className="flex-1 w-full flex flex-col">
                                         <div className="w-full flex flex-col">
-                                          <p className="text-md">Titulo del curso</p>
+                                          <p className="text-md text-black dark:text-white">Titulo del curso</p>
 
                                         </div>
                                         <div className="w-full flex flex-col">
@@ -143,41 +144,12 @@ export const ModalCurse = ({ isOpen, onClose, onCurseSelected }: ModalCurseProps
                                   </div>
                                   <div className="md:col-span-1 col-span-4 flex justify-end items-center">
 
-                                    <Button className="bg-gray-900">Solicitar Curso</Button>
+                                    <Button className="bg-gray-900 dark:bg-blue-500">Solicitar Curso</Button>
                                   </div>
                                 </div>
 
                               </div>
-                              <div className="col-span-5 bg-white border rounded-2xl  h-auto flex flex-col p-3">
-
-                                <div className=" flex-col h-full space-y-3 grid grid-cols-4 place-content-center-center">
-
-                                  <div className="md:col-span-3 col-span-4  flex flex-col">
-                                    <div className="w-full flex gap-3">
-                                      <div className="w-12">
-                                        <div className="w-full h-full rounded-xl bg-blue-600"></div>
-                                      </div>
-                                      <div className="flex-1 w-full flex flex-col">
-                                        <div className="w-full flex flex-col">
-                                          <p className="text-md">Titulo del curso</p>
-
-                                        </div>
-                                        <div className="w-full flex flex-col">
-                                          <p className="text-sm text-gray-500">Titulo del curso</p>
-
-                                        </div>
-
-                                      </div>
-                                    </div>
-
-                                  </div>
-                                  <div className="md:col-span-1 col-span-4 flex justify-end items-center">
-
-                                    <Button className="bg-gray-900">Solicitar Curso</Button>
-                                  </div>
-                                </div>
-
-                              </div>
+                              
 
 
 
