@@ -14,9 +14,6 @@ function App() {
             <PublicRoutes/>
           </CookiesProvider>
         </ThemeProvider>
-
-
-
       </BrowserRouter>
     </>
   )

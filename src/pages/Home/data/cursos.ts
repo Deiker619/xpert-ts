@@ -6,7 +6,7 @@ export const cursos: cursoType[] = [
   {
     id: 1,
     name: "Metodologías Ágiles",
-    image: "",
+    image: "img/home/empresarial.jpg",
     icon: LayersIcon,
     colorTextTitle: "bg-blue/30 backdrop-blur-lg rounded-lg",
     colorTextDescription: "",
@@ -16,7 +16,7 @@ export const cursos: cursoType[] = [
   {
     id: 2,
     name: "Blockchain",
-    image: "",
+    image: "img/home/blockchain.jpg",
     icon: GlobeIcon,
     colorTextTitle: "text-yellow-400 bg-blue/30 backdrop-blur-lg rounded-lg",
     colorTextDescription: "text-white",
@@ -36,7 +36,7 @@ export const cursos: cursoType[] = [
   {
     id: 4,
     name: "Idiomas",
-    image: "",
+    image: "img/home/formacion_min.jpg",
     icon: SpeakerQuietIcon,
     colorTextTitle: "bg-blue/30 backdrop-blur-lg rounded-lg",
     colorTextDescription: "text-white",
@@ -57,7 +57,7 @@ export const cursos: cursoType[] = [
   {
     id: 6,
     name: "Soft Skills",
-    image: "",
+    image: "img/home/soft_min.jpg",
     icon: GlobeIcon,
     colorTextTitle: "text-yellow-400 bg-blue/30 backdrop-blur-lg rounded-lg",
     colorTextDescription: "text-white",
@@ -77,7 +77,7 @@ export const cursos: cursoType[] = [
   {
     id: 8,
     name: "Ciberseguridad",
-    image: "",
+    image: "img/home/seguridad_min.jpg",
     icon: Component2Icon,
     colorTextTitle:
       "text-[#58bcc7] bg-cyan/30 backdrop-blur-lg rounded-lg font-extrabold",
