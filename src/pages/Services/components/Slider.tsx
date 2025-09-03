@@ -16,7 +16,7 @@ export const Slider = () => {
       <CarouselContent>
         <CarouselItem className="md:basis-1/2 lg:basis-1/3 h-full">
           <div className="col-span-4  md:col-span-1 p-4 flex flex-col  w-full justify-center items-center ">
-            <div className="bg-white border border-primary rounded-2xl h-50 w-full relative shadow-lg">
+            <div className="bg-white dark:bg-[#0a0a0a] border border-primary rounded-2xl h-50 w-full relative shadow-lg">
               <div className="absolute bg-white  h-20 w-20 -top-4 left-5  rounded-full">
                 <img
                   src="img/services/ibm.png"
@@ -36,7 +36,7 @@ export const Slider = () => {
         </CarouselItem>
         <CarouselItem className="md:basis-1/2 lg:basis-1/3 h-full">
           <div className="col-span-4  md:col-span-1 p-4 flex flex-col  w-full justify-center items-center ">
-            <div className="bg-white border border-primary rounded-2xl h-50 w-full relative shadow-lg">
+            <div className="bg-white dark:bg-[#0a0a0a] border border-primary rounded-2xl h-50 w-full relative shadow-lg">
               <div className="absolute bg-white  h-16 w-16 -top-4 left-5  rounded-full">
                 <img
                   src="img/services/basedatos.png"
@@ -55,7 +55,7 @@ export const Slider = () => {
         </CarouselItem>
         <CarouselItem className="md:basis-1/2 lg:basis-1/3 h-full">
           <div className="col-span-4  md:col-span-1 p-4 flex flex-col  w-full justify-center items-center ">
-            <div className="bg-white border border-primary rounded-2xl h-50 w-full relative shadow-lg">
+            <div className="bg-white dark:bg-[#0a0a0a]  border border-primary rounded-2xl h-50 w-full relative shadow-lg">
               <div className="absolute bg-white  h-16 w-16 -top-4 left-5  rounded-full">
                 <img
                   src="img/services/seguridad.png"
@@ -74,7 +74,7 @@ export const Slider = () => {
         </CarouselItem>
         <CarouselItem className="md:basis-1/2 lg:basis-1/3 h-full">
           <div className="col-span-4  md:col-span-1 p-4 flex flex-col  w-full justify-center items-center ">
-            <div className="bg-white border border-primary rounded-2xl h-50 w-full relative shadow-lg">
+            <div className="bg-white dark:bg-[#0a0a0a]  border border-primary rounded-2xl h-50 w-full relative shadow-lg">
               <div className="absolute bg-white  h-16 w-16 -top-4 left-5  rounded-full">
                 <img
                   src="img/services/lupa.png"
@@ -93,7 +93,7 @@ export const Slider = () => {
         </CarouselItem>
         <CarouselItem className="md:basis-1/2 lg:basis-1/3 h-full">
           <div className="col-span-4  md:col-span-1 p-4 flex flex-col  w-full justify-center items-center ">
-            <div className="bg-white border border-primary rounded-2xl h-50 w-full relative shadow-lg">
+            <div className="bg-white dark:bg-[#0a0a0a]  border border-primary rounded-2xl h-50 w-full relative shadow-lg">
               <div className="absolute bg-white  h-16 w-16 -top-4 left-5  rounded-full">
                 <img
                   src="img/services/arquitectura.png"
@@ -113,7 +113,7 @@ export const Slider = () => {
         </CarouselItem>
         <CarouselItem className="md:basis-1/2 lg:basis-1/3 h-full">
           <div className="col-span-4  md:col-span-1 p-4 flex flex-col  w-full justify-center items-center ">
-            <div className="bg-white border border-primary rounded-2xl h-50 w-full relative shadow-lg">
+            <div className="bg-white dark:bg-[#0a0a0a] border border-primary rounded-2xl h-50 w-full relative shadow-lg">
               <div className="absolute bg-white  h-16 w-16 -top-4 left-5  rounded-full">
                 <img
                   src="img/services/redes.png"
@@ -133,7 +133,7 @@ export const Slider = () => {
         </CarouselItem>
         <CarouselItem className="md:basis-1/2 lg:basis-1/3 h-full">
           <div className="col-span-4  md:col-span-1 p-4 flex flex-col  w-full justify-center items-center ">
-            <div className="bg-white border border-primary rounded-2xl h-50 w-full relative shadow-lg">
+            <div className="bg-white dark:bg-[#0a0a0a] border border-primary rounded-2xl h-50 w-full relative shadow-lg">
               <div className="absolute bg-white  h-16 w-16 -top-4 left-5  rounded-full">
                 <img
                   src="img/services/ambiente.png"

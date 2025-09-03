@@ -3,6 +3,7 @@ import {
   LinkedInLogoIcon,
   TwitterLogoIcon,
 } from "@radix-ui/react-icons";
+import { Link } from "react-router-dom";
 
 export const Footer = () => {
   return (
@@ -10,13 +11,13 @@ export const Footer = () => {
       <div className="w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div className="grid grid-cols-2">
           <div className="mb-6 md:mb-0 flex justify-center col-span-2 md:col-span-1">
-            <a href="index.html" className="flex">
+            <Link to="/" className="flex">
               <img
-                src="img/logo.png"
+                src="img/xpert_logo.png"
                 className="h-16 me-3"
                 alt="FlowBite Logo"
               />
-            </a>
+            </Link>
           </div>
           <div className="grid grid-cols-2 gap-8 sm:gap-6 col-span-2 md:col-span-1">
             <div className="col-span-1">
