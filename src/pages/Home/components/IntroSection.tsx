@@ -7,7 +7,7 @@ export const IntroSection = () => {
         <div className="grid place-items-center px-4 mx-auto xl:gap-0 lg:py-16 lg:px-8 lg:grid-cols-12">
           <div className="mr-auto container flex flex-col justify-center items-center md:items-start md:justify-start lg:col-span-7">
             <div className="p-6 md:p-0">
-              <h2 className="w-full mb-4 text-2xl  tracking-tight md:text-start md:text-6xl xl:text-4xl">
+              <h2 className="w-full mb-4 text-xl text-center  tracking-tight md:text-start md:text-6xl xl:text-4xl">
                 Ofrecemos soluciones <br />
                 <span className="text-primary font-medium">
                   tecnológicas integrales
@@ -19,7 +19,7 @@ export const IntroSection = () => {
                 Latinoamericano y el Caribe
               </p>
 
-              <ShinyButton className="bg-primary">Ver servicios</ShinyButton>
+              <ShinyButton className="bg-primary flex w-full md:w-auto justify-center items-center">Ver servicios</ShinyButton>
             </div>
           </div>
           <div className="hidden lg:mt-0 lg:col-span-5 lg:flex relative">

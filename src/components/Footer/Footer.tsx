@@ -1,78 +1,66 @@
-
+import {
+  InstagramLogoIcon,
+  LinkedInLogoIcon,
+  TwitterLogoIcon,
+} from "@radix-ui/react-icons";
+import { Link } from "react-router-dom";
 
 export const Footer = () => {
   return (
-    <footer className="bg-[#202020]">
+    <footer className="bg-[#202020] dark:bg-black">
       <div className="w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div className="grid grid-cols-2">
           <div className="mb-6 md:mb-0 flex justify-center col-span-2 md:col-span-1">
-            <a href="index.html" className="flex">
+            <Link to="/" className="flex">
               <img
-                src="img/logo.png"
+                src="img/xpert_logo.png"
                 className="h-16 me-3"
                 alt="FlowBite Logo"
               />
-            </a>
+            </Link>
           </div>
           <div className="grid grid-cols-2 gap-8 sm:gap-6 col-span-2 md:col-span-1">
             <div className="col-span-1">
               <ul className="text-gray-500 font-xs">
-                <li className="mb-1">
+                <li className="mb-1 flex gap-4 items-center">
+                  <InstagramLogoIcon className="size-9"></InstagramLogoIcon>
                   <a
                     href="about.html"
                     className="text-white opacity-40 font-sm hover:text-white hover:opacity-100"
                   >
-                    Quienes somos
+                    Instagram
                   </a>
                 </li>
-                <li className="mb-1">
+                <li className="mb-1 flex gap-4">
+                  <LinkedInLogoIcon className="size-9"></LinkedInLogoIcon>
                   <a
                     href="soluciones.html"
                     className="text-white opacity-40 font-xs hover:text-white hover:opacity-100"
                   >
-                    Soluciones
+                    LinkedIn
                   </a>
                 </li>
-                <li className="mb-1">
+                <li className="mb-1 flex gap-4">
+                  <TwitterLogoIcon className="size-9"></TwitterLogoIcon>
                   <a
                     href="servicios.html"
                     className="text-white opacity-40 font-xs hover:text-white hover:opacity-100"
                   >
-                    Servicios
-                  </a>
-                </li>
-                <li className="mb-1">
-                  <a
-                    href="asesorias.html"
-                    className="text-white opacity-40 font-xs hover:text-white hover:opacity-100"
-                  >
-                    Asesoria
-                  </a>
-                </li>
-                <li className="mb-1">
-                  <a
-                    href="capacitacion.html"
-                    className="text-white opacity-40 font-xs hover:text-white hover:opacity-100"
-                  >
-                    Capacitación
-                  </a>
-                </li>
-                <li className="mb-1">
-                  <a
-                    href="contacto.html"
-                    className="text-white opacity-40 font-xs hover:opacity-100"
-                  >
-                    Contacto
+                    Twitter
                   </a>
                 </li>
               </ul>
             </div>
 
-            <div className="col-span-1">
-              <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase"></h2>
+            <div className="col-span-1 flex flex-col gap-2">
               <p className="w-full text-white opacity-40 font-xs hover:text-white hover:opacity-100">
-                Av. Rómulo Gallegos, Ed. Pascal Caracas - Venezuela
-                info@bytescreativos.net +58 (0424) 188.5393
+                Barrio Prosperidad, Chamartín, Madrid, 28002.
+              </p>
+              <p className="w-full text-white opacity-40 font-xs hover:text-white hover:opacity-100">
+                Correo Electrónico: Info@bytescxpert.com
+              </p>
+              <p className="w-full text-white opacity-40 font-xs hover:text-white hover:opacity-100">
+                Teléfono: +34-655-62-30-40.
               </p>
             </div>
           </div>
@@ -85,18 +73,14 @@ export const Footer = () => {
               <a
                 target="_blank"
                 href="https://www.instagram.com/bytescreativos.ve/"
-              >
-              
-              </a>
+              ></a>
             </div>
 
             <div className="">
               <a
                 target="_blank"
                 href="https://www.linkedin.com/company/bytes-creativos/"
-              >
-             
-              </a>
+              ></a>
             </div>
           </div>
         </div>
